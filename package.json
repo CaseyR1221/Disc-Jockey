@@ -1,0 +1,31 @@
+{
+  "name": "disc-jockey",
+  "version": "1.0.0",
+  "description": "A simple application for keeping track of your disc golf scores, along with course and disc recommendations.",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaseyR1221/Disc-Jockey.git"
+  },
+  "author": "The Hyzers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaseyR1221/Disc-Jockey/issues"
+  },
+  "homepage": "https://github.com/CaseyR1221/Disc-Jockey#readme"
+}
