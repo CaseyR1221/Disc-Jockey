@@ -1,0 +1,30 @@
+<!-- This html will need api to render with arrays for the current discs, current tournaments, and the current reviews -->
+
+<main class="section">
+    <div>
+        <h2>Welcome to Disc-Jockies!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <!-- This is the box to hold the aside and recent reviews next to each other -->
+    <div class="is-flex is-flex-direction-row">
+        <!-- This is the aside to hold Favorite discs and upcoming tournaments -->
+        <aside class="is-flex is-flex-direction-column">
+            <!-- This is the most recent score card -->
+            <div>
+                <h3 class="p-2">Most recent score-card</h3>
+                {{> score-card}}
+            </div>
+            <!-- This is the button for making a new score card -->
+            <div>
+                <a class="p-2">Make new Score card</a>
+            </div>
+        </aside>
+        <!-- This is the conatiner -->
+        <div class="is-flex is-flex-direction-row is-flex-justify-content-around is-align-content-center">
+            <a class="p-2">Make a new post</a>
+            <a class="p-2">Edit existing post</a>
+        </div>
+
+    </div>
+</main>
