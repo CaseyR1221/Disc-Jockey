@@ -3,4 +3,6 @@ const Reviews = require('./Reviews');
 const Scorecard = require('./Scorecard');
 const User = require('./User');
 
-User.hasMany()
+Scorecard.belongsTo(User, {
+    
+})
