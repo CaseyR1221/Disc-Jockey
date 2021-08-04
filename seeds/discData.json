@@ -3,10 +3,10 @@
         "brandName": "Innova",
         "discName": "Wraith",
         "range": "Distance driver",      
-         "speed": 11,
-         "glide": 5,
-         "turn": -1,
-         "fade": 3,    
+        "speed": 11,
+        "glide": 5,
+        "turn": -1,
+        "fade": 3,    
         "bestConditions": "Long Hyzers, Tailwind Drives, Long distance with great control",
         "description": "The Innova Wraith is a long stable distance driver with decent speed, exceptional glide, and precision accuracy. Players of many different skill levels can get great distance with the Wraith. The neutral stability of the Wraith allow it to be a valuable disc in all wind conditions. This driver works well for both forehand and backhand throws.",
         "avergeCost": "$8.50 - 24.95"
@@ -560,7 +560,6 @@
         "turn": -1,
         "fade": 2,
         "bestConditions": "Low- and average-power throwers will find a very straight flight that carries for a long time with a forward penetrating fade. Power throwers will achieve a subtle turnover followed by a long glide phase.",
-    
         "description": "The Servo is part of a new class of fairway drivers with a lower power requirement and more controllable speed. Its extended GYRO® Push yields a straighter lateral movement and immense glide with an effortless forward fade. Both high- and low-power throwers alike will achieve easy pinpoint accuracy with ultimate line control, making the Servo their go-to placement driver in the fairway.",
         "avergeCost": "$13.95"
     },
@@ -573,7 +572,6 @@
         "turn": -1.5,
         "fade": 1,
         "bestConditions": "Low-power throwers will find a very straight flight that carries for a long time with a small forward penetrating fade. Medium- to high-power throwers will achieve a smooth reliable turnover followed by a long glide phase and straight finish.",
-    
         "description": "The Switch is part of a new class of fairway drivers with a lower power requirement and more controllable speed. Its extended GYRO® Push and understable profile offers smooth controlled turnovers and a delayed minimal fade. This disc will excel with its ability to cruise for low power throwers. The controlled turnover in conjunction with minimal fade allows for superb accuracy in tight fairways.",
         "avergeCost": "$13.95 - 24.95"
     },
