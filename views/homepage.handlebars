@@ -1,0 +1,38 @@
+<!-- This html will need api to render with arrays for the current discs, current tournaments, and the current reviews -->
+
+
+<main class="section">
+    <div>
+        <h2>Welcome to Disc-Jockies!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <!-- This is the box to get the aside and recent reviews next to each other -->
+    <div class="is-flex is-flex-direction-row">
+        <!-- This is the aside to hold Favorite discs and upcoming tournaments -->
+        <aside class="is-flex is-flex-direction-column">
+            <!-- This is the Favorite discs box -->
+            <div>
+                <h3>Favorite Discs</h3>
+                {{#each discs as |disc|}}
+                    {{> disc}}
+                {{/each}}
+            </div>
+            <!-- This is the upcoming tournaments box -->
+            <div>
+                <h3>Upcoming Tournaments</h3>
+                {{#each tournaments as |tournament|}}
+                    {{> tournament}}
+                {{/each}}
+            </div>
+        </aside>
+        <!-- This is the box to hold recent reviews -->
+        <div>
+            <h3>Recent Reviews</h3>
+            {{#each reviews as |review|}}
+                {{> review}}
+            {{/each}}
+        </div>
+
+    </div>
+</main>
