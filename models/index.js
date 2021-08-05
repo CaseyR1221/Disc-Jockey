@@ -21,3 +21,5 @@ User.hasMany(Reviews, {
 Disc.hasMany(Reviews, {
     foreignKey: 'disc_id',
 })
+
+module.exports= { User, Disc, Reviews, Scorecard }; 
