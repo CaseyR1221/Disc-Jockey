@@ -26,13 +26,20 @@ Reviews.init(
         key: 'id',
       },
     },
+    disc_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'disc',
+        key: 'id',
+      },
+    },
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'comment',
+    modelName: 'reviews',
   }
 );
 
