@@ -11,10 +11,47 @@
         <!-- This is the aside to hold Favorite discs and upcoming tournaments -->
         <aside class="is-flex is-flex-direction-column">
             <!-- This is the Favorite discs box -->
-            <div>
+            <div class="">
                 <h3>Favorite Discs</h3>
                 {{#each discs as |disc|}}
-                    {{> disc}}
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                            <img src="https://www.innovadiscs.com/wp-content/uploads/2016/01/wraith_01.jpg" alt="Innova Wraith">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">{{discName}}</p>
+                                    <p class="subtitle is-6">{{discBrand}}</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>Desciption:</p>
+                                <p>{{description}}</p>
+                                <p>Specs:</p>
+                                <div class="is-flex is-flex-direction-row">
+                                    <div class="is-flex is-flex-direction-column">
+                                        <p>Speed</p>
+                                        <p>{{speed}}</p>
+                                    </div>
+                                    <div class="is-flex is-flex-direction-column">
+                                        <p>Glide</p>
+                                        <p>{{glide}}</p>
+                                    </div>
+                                    <div class="is-flex is-flex-direction-column">
+                                        <p>Turn</p>
+                                        <p>{{turn}}</p>
+                                    </div>
+                                    <div class="is-flex is-flex-direction-column">
+                                        <p>Fade</p>
+                                        <p>{{fade}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 {{/each}}
             </div>
             <!-- This is the upcoming tournaments box -->
