@@ -5,12 +5,6 @@ class Disc extends Model {}
 
 Disc.init(
     {
-      id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        primaryKey: true,
-        autoIncrement: true,
-      },
       brandName: {
         type: DataTypes.STRING,
       },
@@ -45,7 +39,9 @@ Disc.init(
     {
       sequelize,
       timestamps: false,
-      freezeTableName: true,
-      modelName: 'disc',
+      underscored: true,
+      modelName: 'disc'
     }
   );
+
+  module.exports = Disc;
