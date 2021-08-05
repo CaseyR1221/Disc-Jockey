@@ -14,5 +14,14 @@ Scorecard.init(
         par: {
             type: DataTypes.INTEGER,
         }
+    },
+    {
+        sequelize,
+        timestamps: false,
+        underscored: true,
+        freezeTableName: true,
+        modelName: 'scorecard',
     }
 )
+
+module.exports = Scorecard;
