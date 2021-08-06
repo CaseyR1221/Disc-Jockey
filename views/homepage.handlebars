@@ -150,10 +150,11 @@
             <p class="title">Reviews</p>
             <div class="content">
               {{#each allReviews as |review|}}
-                <p>{{comment}}</p>
-                <p>{{user_id}}</p>
-                <p>{{disc_id}}</p>
-                <p>{{date_created}}</p>
+              <div>
+                <h3 class="title">{{disc.discName}}</h3>
+                <textarea class="textarea" readonly>{{comment}}</textarea>
+                <p class="">- posted by {{user.name}} on {{format_date date_created}}</p>
+              </div>
               {{/each}}
             </div>
           </div>

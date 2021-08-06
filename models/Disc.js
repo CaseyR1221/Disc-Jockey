@@ -36,7 +36,7 @@ Disc.init(
         type: DataTypes.TEXT,
       },
       averageCost: {
-        type: DataTypes.DOUBLE,
+        type: DataTypes.FLOAT,
       },
     },
     {
