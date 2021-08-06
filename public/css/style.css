@@ -1,3 +1,11 @@
+nav {
+    margin-bottom: 5rem;
+}
+
+footer {
+    margin-top: 5rem;
+}
+
 .navbar-start {
     justify-content: space-between;
     margin-left: 18rem;
@@ -5,4 +13,8 @@
 
 .nav-Item {
     margin-left: 5rem;
+}
+
+.is-fullheight-100vh {
+    height: 100vh;
 }
