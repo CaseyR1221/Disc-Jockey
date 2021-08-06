@@ -10,7 +10,7 @@
         "fade": 3,    
         "bestConditions": "Long Hyzers, Tailwind Drives, Long distance with great control",
         "description": "The Innova Wraith is a long stable distance driver with decent speed, exceptional glide, and precision accuracy. Players of many different skill levels can get great distance with the Wraith. The neutral stability of the Wraith allow it to be a valuable disc in all wind conditions. This driver works well for both forehand and backhand throws.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Innova",
@@ -23,7 +23,7 @@
         "fade": 3,
         "bestConditions": "Maximum Distance, Long Hyzers, Headwind Drives",
         "description": "The Destroyer is the #1 selling disc on InfiniteDiscs.com. This was the first Speed 12 driver and is one of the primary discs used by many professional disc golfers. For less experienced players, the Destroyer excels for forehand throws. The Destroyer is overstable, but has a degree of turn to help provide incredible glide and distance. Intermediate players will get more distance on forehand throws with the Destroyer than just about any other disc. The Innova Destroyer is a very thin (1.4cm) disc, and has the perfect sized rim (2.2cm) for high speeds, without being uncomfortably thick. As such a popular driver, the Destroyer comes available in all the major plastics.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Innova",
@@ -36,7 +36,7 @@
          "fade": 4,
         "bestConditions": "Headwind drives, Flex shots, Big hyzers",
         "description": "The Firebird is the first “very overstable” disc that developing disc golfers should get. This disc will provide a massive fading hook, but it’s not so fast that it can’t be controlled by less powerful players. The Firebird makes a great forehand driver and can easily handle headwinds.",
-        "avergeCost": 13.95
+        "averageCost": 13.95
     },
     {
         "brandName": "Innova",
@@ -49,7 +49,7 @@
         "fade": 3,
         "bestConditions": "Long-range forehands, headwind distance drives, extreme hyzer throws",
         "description": "Invictus means “unconquered” in Latin and for long-range throws into a headwind, there’s no equal. Some pros refer to the Star Invictus as a “faster Firebird.” Innova Star Team’s Garrett Gurthie says, “If you think you have the power, you need this disc.”",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Innova",
@@ -62,7 +62,7 @@
         "fade": 2,
         "bestConditions": "First distance driver, Tailwind drives, Long turnover drives",
         "description": "One of the most popular drivers in the world, the Valkyrie held the world distance record for a decade. This is a stable flying distance driver with a good degree of high speed turn and fade. The Valkyrie can be used by players of all skill levels. It is a good distance driver for newer players developing form, and can be used for turnover shots and rollers for more advanced players. Because of the popularity of the Valkyrie it is available in just about every plastic Innova has to offer; DX, Pro, Champion, Star, and even Glow Champion.",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "Innova",
@@ -75,7 +75,7 @@
         "fade": 2,
         "bestConditions": "Accurate shot-shaping, 'Go-To' fairway driver, Faster TeeBird with less glide",
         "description": "The TeeBird3 represents the evolution of the TeeBird. Many people have described a lot of discs as a faster TeeBird, but this is the real deal. The flat flight plate promotes speed while reducing glide, effectively producing consistent, accurate flights. This is a point and shoot, target specific fairway driver.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Innova",
@@ -88,7 +88,7 @@
         "speed": 8,
         "bestConditions": "New players, Water hazard shots, Tailwind drives",
         "description": "The Dragon is a lightweight driver with excellent glide for less powerful throwers who want to get more distance with less effort. Made with a special blend of plastic, the Dragon has great grip and will float in water. Dragons are only available between 150-160 grams.",
-        "avergeCost": 8.50
+        "averageCost": 8.50
     },
     {
         "brandName": "Innova",
@@ -101,7 +101,7 @@
         "speed": 8,
         "bestConditions": "New players, Long anhyzers, Roller shots",
         "description": "The Archangel is one of our easiest drivers to throw - especially for those with less power. The Archangel’s high glide, fast speed and turning characteristic all combine to stretch out distance shots. The Archangel also doubles as an easy to turn roller disc. Lighter weights work great for younger players.",
-        "avergeCost": 11.95 
+        "averageCost": 11.95 
     },
     {
         "brandName": "Innova",
@@ -114,7 +114,7 @@
         "fade": 3,
         "bestConditions": "First headwind driver, Flex shots, Power turnover shots",
         "description": "The Eagle is our original, professional level fairway driver. It ushered in a new era for distance and reliability. The Eagle’s superior speed and predictable flight characteristics let you make confident and accurate long range power shots. The Eagle’s high speed turn is excellent for power turnover shots.",
-        "avergeCost": 11.95
+        "averageCost": 11.95
     },
     {
         "brandName": "Innova",
@@ -127,7 +127,7 @@
         "fade": 2,
         "bestConditions": "Straight line driver, First driver, Tight fairways",
         "description": "The Cheetah is a great driver for throwing straight long shots at any skill level. It is a very versatile disc that is predictably stable at lower speeds and will turnover slightly at higher speeds. It is an excellent disc choice for less powerful disc golfers.",
-        "avergeCost": 13.95 
+        "averageCost": 13.95 
     },
     {
         "brandName": "Innova",
@@ -140,7 +140,7 @@
         "fade": 3.5, 
         "bestConditions": "Strong headwind mid-range shots, accurate spike hyzer approaches, overstable mid-range shots",
         "description": "Thirty years after we first launched the Roc, we introduce our most torque-resistant version yet, the RocX3. We’ve given our legendary disc a low profile and a hefty rim to create extra control, making it the ideal Mid-Range for windy conditions and forehand throws. Power players will love the control. X-Factor fueled, the evolution continues. RocX3.",
-        "avergeCost": 14.95 
+        "averageCost": 14.95 
     },
     {
         "brandName": "Innova",
@@ -153,7 +153,7 @@
         "fade": 0, 
         "bestConditions": "Dead straight shots, Smooth hyzer shots, One disc rounds",
         "description": "This Mid-Range disc is the perfect solution for anyone who wants a straight flyer with very limited fade. The Mako3 is available in Champion plastic, and it's faster than the original Mako. Players will like the Mako3's glide for added distance. The easy to grip and release rim offers clean consistent releases. The Mako3 is a great disc for one disc rounds.",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "Innova",
@@ -166,7 +166,7 @@
         "fade": 0,
         "bestConditions": "Straight shots, Holding a line, Technical approaches",
         "description": "The Wombat3 with VTech feels better in the hand, is easier to throw, and has more meat in the rim for extra torque resistance. Straight shots still go straight and turnovers stay turned with a gentle flat landing.",
-        "avergeCost": 13.95
+        "averageCost": 13.95
     },
     {
         "brandName": "Innova",
@@ -179,7 +179,7 @@
         "fade": 2,
         "bestConditions": "Mid-range versatility, forehand upshots",
         "description": "The Avatar unites the best of Innova’s iconic mid-ranges. With DNA from the Lion, Atlas, and Roc3—decorated in multi-color INNfuse inks—the Avatar is the complete mid-range. Molded in our premium Star plastic, the firm flight plate is fused to a comfortable rim for smooth releases and stable flights.",
-        "avergeCost": 13.95
+        "averageCost": 13.95
     },
     {
         "brandName": "Innova",
@@ -192,7 +192,7 @@
         "fade": 2,
         "bestConditions": "Turnover shots, Finesse shots, Beginner disc",
         "description": "The Cobra is a predictable mid-range large diameter disc that is easy to grip. It is very beginner friendly with a long and useful lifespan. The Cobra is a great disc choice for long, slow turning shots and rollers. The thin rim is great for smaller hands and creates a clean predictable release.",
-        "avergeCost": 8.50
+        "averageCost": 8.50
     },
     {
         "brandName": "Innova",
@@ -205,7 +205,7 @@
         "fade": 0,
         "bestConditions": "Beginners, Straight line approaches, Converting from Ultimate",
         "description": "The Birdie is a slow, straight flyer with our Thumtrac™ grip for a sure release. It has great chain catching ability. Great for approach shots, as it flies straight and slow, start to finish. It is one of our best “go for it” discs as it doesn’t go far past the basket on misses, and stays put when it hits the ground. A good disc for those players making the conversion from flat edged disc sports: Catch, Ultimate, Freestyle, etc.",
-        "avergeCost": 7.50
+        "averageCost": 7.50
     },
     {
         "brandName": "Innova",
@@ -218,7 +218,7 @@
         "fade": 1,
         "bestConditions": " Go to putter, Short to medium drives, Accurate approaches",
         "description": "The Aviar Putt & Approach is our most popular disc model and the number one putter in disc golf. It is versatile and is dependable in all conditions. A must have disc for any serious competitor’s bag. This is the beadless model that provides an excellent grip. It is a straight flier with a predictable finish.",
-        "avergeCost": 11.95
+        "averageCost": 11.95
     },
     {
         "brandName": "Innova",
@@ -231,7 +231,7 @@
         "fade": 0,
         "bestConditions": "Stable putter, Power approaches, Straight flights",
         "description": "The Dart is a small diameter putter with a straight flight. The Dart is especially good for long range putts and go-for shots. It has a flight similar to our Aviar Putt & Approach but has less low speed fade and a little more range. The nice thing about this disc, besides the improved grip, is that it holds the line for a long time.",
-        "avergeCost": 10.95
+        "averageCost": 10.95
     },
     {
         "brandName": "Innova",
@@ -244,7 +244,7 @@
         "fade": 0,
         "bestConditions": "Technical approaches, Accurate upshots, No skip stops",
         "description": "The Nova is a unique putter designed with overmold technology. The flight plate is made from a firm Pro material that's fused to a grippy putter Pro plastic rim. The soft rim absorbs impact and sticks the landing while the firm flight plate allows for powerful throws making the Nova an excellent putter and approach disc.",
-        "avergeCost": 13.95
+        "averageCost": 13.95
     },
     {
         "brandName": "Innova",
@@ -257,7 +257,7 @@
         "fade": 1,
         "bestConditions": "Driving putter, Headwind approaches, Stable putter",
         "description": "A meaty feeling putter in the hand, the Whale is designed for players looking for consistent flights regardless of how hard they throw. The Whale flies like a driver and lands like a putter. The Whale is easier to throw sidearm because of its superior torque resistance.",
-        "avergeCost": 10.95
+        "averageCost": 10.95
     },
     {
         "brandName": "Dynamic",
@@ -270,7 +270,7 @@
         "fade": 2,
         "bestConditions": "Distance shots, long turnovers, distance flex shots for slower arms",
         "description": "The Dynamic Discs Captain is a fast distance driver that provides max distance for less experienced players and a predictable understable flight for disc golfers with big arms. If you're looking for more distance, follow the Captain.",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "Dynamic",
@@ -283,7 +283,7 @@
         "fade": 3,
         "bestConditions": "Overstable distance drives, forehands, wind-fighting shots",
         "description": "Dynamic Discs' Defender is a super-fast overstable driver with a big rim and big fade. A perfect middle ground between the Trespass and the Enforcer in terms of over-stability, this disc will allow big arms a long straight flight with a hard fade at the end, perfect for controlled distance shots and headwinds.",
-        "avergeCost": 13.95
+        "averageCost": 13.95
     },
     {
         "brandName": "Dynamic",
@@ -296,7 +296,7 @@
         "fade": 3,
         "bestConditions": "Distance shots, long turnovers, distance flex shots for slower arms",
         "description": "Dynamic Discs long distance driver promises max distance for intermediate-advanced disc golfers. On a powerful throw, the Renegade may be very understable; good for downwind shots and rollers. The Renegade has a substantial degree of high speed turn, impressive glide, and a significant low speed fade. The Dynamic Discs Renegade available in transparent Lucid plastic, as well as Fuzion plastic for the Eric McCabe series, and the most affordable BioFuzion plastic.",
-        "avergeCost": 10.95
+        "averageCost": 10.95
     },
     {
         "brandName": "Dynamic",
@@ -309,7 +309,7 @@
         "fade": 4,
         "bestConditions": "Overstable distance drives, forehands, wind-fighting shots",
         "description": "You no longer need to make a choice. You don't have to sacrifice distance in order to have stability. You don't have to fear flipping over when you need a big throw. The Enforcer mixes these two needs beautifully. It will fly great into a wind. It can be turned over for a very predictable S-flight. It is a wonderful disc for a spike shot. The versatility and predictability of the Enforcer has proven itself and is a staple in the bags of many world class professionals.",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "Dynamic",
@@ -322,7 +322,7 @@
         "fade": 3,
         "bestConditions": "Understable distance drives, max distance turnovers for newer players, rollers at high speeds",
         "description": "The Freedom is a 14 speed understable disc in the vein of the King or Havoc and the fastest that Dynamic Discs has ever produced. For the big arm throwers, this disc will go a long way on an anhyzer line with a predictable fade back to stable at the end giving easy distance on hyzer flip shots. For those with lower arm speeds, the Freedom is the long distance driver that you have been wanting and asking us to produce. This disc will sail past that spot in the fairway where you normally land. It will take your usual throw and translate it into uncommon distances. Free your shackled expectations of the distances that you can achieve!",
-        "avergeCost": 11.95
+        "averageCost": 11.95
     },
     {
         "brandName": "Dynamic",
@@ -335,7 +335,7 @@
         "fade": 2,
         "bestConditions": "Slightly understable fairway shots, line shaping in the woods, great for all skill levels",
         "description": "The Vandal flies like a longer Maverick, so it’s extremely versatile. Newer players will love the straighter lines they can throw, and players with more arm speed will enjoy it for easy turnovers or rollers. The Vandal is built to carve up any course with dependable turn and sneaky speed.",
-        "avergeCost": 12.95
+        "averageCost": 12.95
     },
     {
         "brandName": "Dynamic",
@@ -348,7 +348,7 @@
         "fade": 2,
         "bestConditions": "Slightly overstable fairway shots, straight shots at higher speeds, shot shaping",
         "description": "The Musket is a straight shooter. Accuracy and distance do not always go hand in hand, but this speedy fairway driver can give you that little extra firepower and still hold the line. The perfect weapon when the fairway is narrow and the basket is far away.",
-        "avergeCost": 15.95
+        "averageCost": 15.95
     },
     {
         "brandName": "Dynamic",
@@ -361,7 +361,7 @@
         "fade": 1.5,
         "bestConditions": "Fairway shots, easy turnovers, drives for beginners",
         "description": "Do you like the Escape but find that it goes too far? The Breakout is the disc for you. It has the feel in your hand of a fairway driver but the easy release of a midrange. The Breakout is the slightly understable fairway driver from Dynamic Discs that you need when you have to have a bit more distance but you can't sacrifice accuracy. It will hold an anhyzer angle without turning over all the way to the ground and will fly dead straight if you tell it to.",
-        "avergeCost": 12.95
+        "averageCost": 12.95
     },
     {
         "brandName": "Dynamic",
@@ -374,7 +374,7 @@
         "fade": 2,
         "bestConditions": "Straight at medium speed, easy turnovers at higher speed, carving gaps in the woods",
         "description": "The Maverick can fit in nearly every player’s bag. The Maverick's smaller rim offers controllable fairway speed and straighter flights for slower arms with trustworthy anhyzers and slow turns for experienced players. The Maverick shines in the woods with low ceilings and tunnel shots. Versatility and workable speed allow the Maverick to steal throws from even the most established bags.",
-        "avergeCost": 11.95
+        "averageCost": 11.95
     },
     {
         "brandName": "Dynamic",
@@ -387,7 +387,7 @@
         "fade": 2,
         "bestConditions": "Straight fairway shots, great for learning to shape shots",
         "description": "The Stag is a perfect addition to everyone's bag. It has a good stability level and a smaller rim design to accommodate everyone. It is controllable, predictable, and will have a good release in the hand of any player. This is a great disc choice if you only want to carry only one fairway driver. For professional players the Stag will be straight tunnel disc that finishes with Hyzer. For lower arm speeds the Stag will finish left with a little less flare than drivers with the same flight integrity level.",
-        "avergeCost": 10.95
+        "averageCost": 10.95
     },
     {
         "brandName": "Dynamic",
@@ -400,7 +400,7 @@
         "fade": 4,
         "bestConditions": "Very overstable approaches, forehands, windy situations, skip shots",
         "description": "Strong winds will make the most experienced player look like a novice. They have forced us back into the laboratory to solve the midrange question. Our tests have led us here. The Justice is served. The Justice by Dynamic Discs is going to become your new utility disc. It will not turn over. Throw the Justice one time and you will not need to reach for anything else for a short distance, overstable answer.",
-        "avergeCost": 18.95
+        "averageCost": 18.95
     },
     {
         "brandName": "Dynamic",
@@ -413,7 +413,7 @@
         "fade": 1,
         "bestConditions": "Straight to slightly understable midrange shots, straight approaches",
         "description": "Since its debut in 2013, our Truth has earned a reputation as one of the strongest midrange discs around. Versatility elevates it above the competition: on the course, you'll turn to it time and time again to nail hyzer and anhyzer shots, approaches, and straight shots going high and low. Its stability makes it a reliable starter disc to get beginners interested in the game, and its consistency becomes a tournament player's secret weapon when they're looking to achieve a shot.",
-        "avergeCost": 10.95
+        "averageCost": 10.95
     },
     {
         "brandName": "Dynamic",
@@ -426,7 +426,7 @@
         "fade": 0.5,
         "bestConditions": "Slower straight approaches, smooth anhyzers at higher speeds",
         "description": "The Bounty brings a different feel to the Dynamic Discs midrange lineup. With a shallow rim and bead, the Bounty is a slightly understable midrange that acts like a slower Maverick. At shorter distances and slower speeds, the Bounty will fly very straight with good glide and minimal fade. When thrown with more speed, the Bounty will slowly move to the right without burning into the ground. Use the Bounty to shape shots in the open or in the woods, and you'll love the control you gain!",
-        "avergeCost": 17.95
+        "averageCost": 17.95
     },
     {
         "brandName": "Dynamic",
@@ -439,7 +439,7 @@
         "fade": 2,
         "bestConditions": "Stable to slightly overstable approaches, holding lines, shots other midranges can't reach",
         "description": "Walt Whitman said, 'Whatever satisfies the soul is truth.' The EMAC Truth is here to bring satisfaction to your golf game. The Truth had lost its way and wasn't as stable as we wanted it to be. The EMAC Truth sets the record straight. The beautifully neutral and versatile flight of this disc will remind you of the core of disc golf; to throw a disc where you want it to go. Let the EMAC Truth take you back to this satisfying feeling. May the Truth be with you. Signature disc for 2010 World Champion, Eric McCabe.",
-        "avergeCost": 15.95
+        "averageCost": 15.95
     },
     {
         "brandName": "Dynamic",
@@ -452,7 +452,7 @@
         "fade": 3.5,
         "bestConditions": "Overstable approaches and tee shots, straight shots in windy conditions",
         "description": "Predictable. Overstable. Midrange. This is the Verdict. You can trust this disc to get the midrange distance you need even when the winds are threatening to flip everything that you throw. The Verdict is a great complement to the Truth in speed and feel in the hand. If you love one, you will love the other and be able to accomplish that many more shots that you need. The Verdict has been handed down. Get rid of high scores with the Verdict.",
-        "avergeCost": 8.50
+        "averageCost": 8.50
     },
     {
         "brandName": "Dynamic",
@@ -465,7 +465,7 @@
         "fade": 1,
         "bestConditions": "Straight approaches, holding lines, stable putts",
         "description": "To bead or not to bead. This is one of the most fundamental questions in disc golf. While the Judge and Warden from Dynamic Discs each have their own opinion, the Marshal comes to establish peace in this fight. The microbead and slim profile of the Marshal makes for a disc that feels and releases great. With more stability than one would expect from this profile, the Marshal will usher in a new era of confidence and comfort inside the circle.",
-        "avergeCost": 11.95
+        "averageCost": 11.95
     },
     {
         "brandName": "Dynamic",
@@ -478,7 +478,7 @@
         "fade": 0,
         "bestConditions": "Turnovers off the tee, touch upshots, straight putts",
         "description": "If your short game needs some assistance, look no further than the Deputy. Boasting the most understable flight of any Dynamic Discs putter, the Deputy allows for easy turnover flights at faster speeds and smooth straight flights at low speeds. Those with smaller hands or who prefer slimmer, beadless profiles will love the feel of the Deputy, as it is slightly more shallow than the Judge, Warden, and Marshal. Take your putt and approach game to the next level with the help of the Deputy!",
-        "avergeCost": 8.50
+        "averageCost": 8.50
     },
     {
         "brandName": "Dynamic",
@@ -491,7 +491,7 @@
         "fade": 1,
         "bestConditions": "Straight to slightly overstable approaches, stable putts, accuracy off the tee",
         "description": "glides in a straight line, helping you score those points in the basket, but goes beyond assumptions by traveling a greater distance, which expands its possibilities in your game. Few putters stack up to this combination.",
-        "avergeCost": 10.95
+        "averageCost": 10.95
     },
     {
         "brandName": "Dynamic",
@@ -504,7 +504,7 @@
         "fade": 1,
         "bestConditions": "Straight approaches, stable putts, accuracy off the tee",
         "description": "If you love the flight of the Judge but wish it had less of a bead and a bit less fade, you're in good company with 2010 World Champion, Eric McCabe. In the quest for his go-to putter, Eric approached Jeremy Rusco and Latitude 64 about creating a putter that sits in between the Judge and the Warden, and the EMAC Judge is the result. The EMAC Judge features an incredible feel in your hand with a microbead that ensures a smooth release. Disc golfers using the EMAC Judge for approach shots will love the neutral stability with a subtle finish, and those putting with it will find a consistent flight with less diving fade than the original Judge. Eric is known for his world-class putting, so if you're looking for a putter that will take your game to the next level, look no further than the EMAC Judge!",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "Dynamic",
@@ -517,7 +517,7 @@
         "fade": 0.5,
         "bestConditions": "Straight approaches, stable putts, learning to throw a putter",
         "description": "To bead or not to bead. That is the question. What could Dynamic Discs possibly do in the putter game to follow the Judge, the 2013 Disc of the Year? Introducing the Warden, Dynamic Discs' beadless putter. With an extremely smooth release and neutral flight, the Warden will come out of your hand easily and fly dead straight to the chains. With more glide than the Judge, it will stay in the air longer to help deflate those high scores. The Warden would like to see you now.",
-        "avergeCost": 10.95
+        "averageCost": 10.95
     },
     {
         "brandName": "MVP",
@@ -530,7 +530,7 @@
         "fade": 2.5,
         "bestConditions": "The Teleport is part of an extremely fast and demanding speed class. Beginner throwers are encouraged to try slower classes for best results. High power throwers will get a controllable hyzerflip flight, while most players will need a flat release or headwind assistance for maximum flight potential.",
         "description": "The Teleport’s straight-stable design produces a tight S-curve at high speeds, with plenty of stability to keep it headed toward its target. While high power throwers and headwinds can produce these shallow turnover lines, average throwers will get a long and manageably resistant driver in the Teleport. Within the context of the 24.5mm class, Teleport has the most distance potential for the most throwers in the core distance slot.",
-        "avergeCost": 17.95
+        "averageCost": 17.95
     },
     {
         "brandName": "MVP",
@@ -543,7 +543,7 @@
         "fade": 3,
         "bestConditions": "Power throwers will be able to activate a flight extending shallow turnover, while average throwers may only see this in a headwind. With its high speed requirement and stable-overstable nature at full speed, many players may find the Nitro to be a suitable max distance overstable driver.",
         "description": "The MVP Nitro is a stable-overstable distance driver from the new high speed 23mm class.  Nitro falls in the general stability lineage of Servo, Volt, Tesla, and Photon, with a turn-resistant profile that covers ground and guarantees a fade finish.  Average throwers may need lighter weights or headwinds to achieve what little turn is offered by Nitro, while power throwers will find a workable and responsive shallow turn.",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "MVP",
@@ -556,7 +556,7 @@
         "fade": 2,
         "bestConditions": "Power throwers will be able to hyzerflip the Octane for max distance, while average throwers may only see a shallow turn from the Octane. This power responsive nature allows the Octane to be used in a variety of lines and situations by adjusting power and release angles. With its high speed requirement and stable-understable nature at full speed, many average power players may find the Octane to be a suitable max distance stable-overstable driver",
         "description": "Octane falls in the general stability lineage of Switch, Amp, Inertia, and Wave, with a slow-turning profile that holds long and straight until its fade finish. The 23mm Octane is designed to be relatively less understable than its 21.5mm counterpart Wave. Average throwers should see straight flights with a bit of shallow turn, while power throwers will be able to hyzerflip for max distance and tailwind lines.",
-        "avergeCost": 17.95
+        "averageCost": 17.95
     },
     {
         "brandName": "MVP",
@@ -569,7 +569,7 @@
         "fade": 2,
         "bestConditions": "High powered throwers will see turn and hyzerflip tendencies from the Wave, while average power throwers may need a headwind assistance or anhyzer release to activate the turning capabilities of the Wave. Beginners will find a useable, yet quite overstable flight in the Wave, due to the high power requirements of wide-rimmed distance drivers.",
         "description": "The Wave is best described as a longer Inertia, with a stable-understable flight profile and a responsiveness that makes it useful across the power spectrum. Available in weights 175g – 155g, the Wave is the type of driver that players may bag in two or more weights for shot variety. For the most powerful throws, long gliding turnovers and hyzerflip gut shots are possible with the Wave. For average powered throws the Wave will simply extend a variety of lines, from anhyzers to hyzerflips to headwind-assisted turnovers.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "MVP",
@@ -582,7 +582,7 @@
         "fade": 2,
         "bestConditions": "Low- and average-power throwers will find a reliable wind-busting driver with a forward penetrating fade. Power throwers will achieve a tight near-flat turn with a fade finish.",
         "description": "The Tesla’s responsive design balances a subtle turn and reliable fade, while a pronounced glide and forward finish gain extra distance. The Tesla extends high power or headwind lines and has plenty of bite to fade back reliably and reduce lateral drift. The Tesla can be considered the big brother to our acclaimed Volt fairway driver. Choose the Tesla for long-range pinpoint accuracy.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "MVP",
@@ -595,7 +595,7 @@
         "fade": 2,
         "bestConditions": "For average throwers and tailwinds, the Volt will resist turn. High-power throws and headwinds will activate the small turnover phase of flight, gaining distance and lateral movement.",
         "description": "The Volt is geared for long, accurate placement shots. The Volt can hold a long straight line and with a solid, forward penetrating fade. Reach for the Volt when accuracy is needed on long, tight fairways.",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "MVP",
@@ -608,7 +608,7 @@
         "fade": 2,
         "bestConditions": "Low- and average-power throwers will find a very straight flight that carries for a long time with a forward penetrating fade. Power throwers will achieve a subtle turnover followed by a long glide phase.",
         "description": "The Servo is part of a new class of fairway drivers with a lower power requirement and more controllable speed. Its extended GYRO® Push yields a straighter lateral movement and immense glide with an effortless forward fade. Both high- and low-power throwers alike will achieve easy pinpoint accuracy with ultimate line control, making the Servo their go-to placement driver in the fairway.",
-        "avergeCost": 13.95
+        "averageCost": 13.95
     },
     {
         "brandName": "MVP",
@@ -621,7 +621,7 @@
         "fade": 1,
         "bestConditions": "Low-power throwers will find a very straight flight that carries for a long time with a small forward penetrating fade. Medium- to high-power throwers will achieve a smooth reliable turnover followed by a long glide phase and straight finish.",
         "description": "The Switch is part of a new class of fairway drivers with a lower power requirement and more controllable speed. Its extended GYRO® Push and understable profile offers smooth controlled turnovers and a delayed minimal fade. This disc will excel with its ability to cruise for low power throwers. The controlled turnover in conjunction with minimal fade allows for superb accuracy in tight fairways.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName":"MVP" ,
@@ -634,7 +634,7 @@
         "fade": 1,
         "bestConditions": "Advanced throwers can expect a straight-to-turning flight from the Relay if thrown flat, or a flip-up-to-flat line if thrown with hyzer. Beginner and average throwers can expect for more of their launch angle to hold throughout the flight with the Relay.",
         "description": "The Relay features a slim 16mm wing that feels extra chunky in the hand while still being our easiest to grip driver. While advanced and expert throwers will have a healthy flip and turn to carve with, beginner to average disc golfers will get a controllable straight flyer that doesn’t need much power. The Relay’s low-speed demands make it the easiest MVP driver to throw for beginners and the best all-around “powered-down” disc for experts.",
-        "avergeCost": 17.95
+        "averageCost": 17.95
     },
     {
         "brandName": "MVP",
@@ -647,7 +647,7 @@
         "fade": 1,
         "bestConditions": "While beginners and developing players will enjoy an easy straight flight with available turn, expert throwers will need to dial it down or turn up their flight manipulation game.",
         "description": "The Signal is an extremely understable and relatively low-speed fairway driver, which makes it incredibly easy to throw for newer players. Thrown at high power, the Signal begs for lines to be worked through hyzer-flips and height adjustments, yielding everything from laser beams to smooth turns and rollers on demand. All this turning potential is buffered by the stabilizing GYRO® effect for a controllable golf disc.",
-        "avergeCost": 10.95
+        "averageCost": 10.95
     },
     {
         "brandName": "MVP",
@@ -660,7 +660,7 @@
         "fade": 4,
         "bestConditions": "The Deflector is defined by overstability. High power forehand and backhand players will find a midrange that they can unleash on and have the confidence of a predictable finishing fade.",
         "description": "While beginners and developing players will enjoy an easy straight flight with available turn, expert throwers will need to dial it down or turn up their flight manipulation game.",
-        "avergeCost": 13.95
+        "averageCost": 13.95
     },
     {
         "brandName": "MVP",
@@ -673,7 +673,7 @@
         "fade": 1.5,
         "bestConditions": "Swooping Anhyzers",
         "description": "The newest midrange driver from MVP is here with the release of the Reactor in Neutron plastic. This workhorse mid fits perfectly in the gap between the out of production Vector and Axis. With a modern profile and enhanced GYRO® effect, fans can expect noticeably more glide than the Vector and a tick more stability than the Axis. With that added stability and glide, the Reactor will carve up any fairway you can imagine. Swooping Anhyzers? Check. Booming Hyzers? Double-check. The first member of MVP’s next generation of midranges, the Reactor is sure to reach critical mass this season.",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "MVP",
@@ -686,7 +686,7 @@
         "fade": 2,
         "bestConditions": "Average powered throwers will get a healthy ending fade, while advanced power throwers will have a remarkably long straight travel before fading. The Matrix perfectly fills the role of a longer Axiom Envy.",
         "description": "The Matrix is designed to resist turnover for all power levels and situations, and its stability is best described as a longer Axiom Envy. Matrix should have a long straight travel for most throwers, followed by a dependable fade. While this is not a “meathook” style overstable midrange, its utility is not to be underestimated. Release angles make all the difference with this type of midrange, yielding useful flights on releases from anhyzer to flat and hyzer.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "MVP",
@@ -699,7 +699,7 @@
         "fade": 2,
         "bestConditions": "High Wind. For high and medium power throwers alike, the Vector’s bead allows for added stability so you can trust it to hold straight lines in the wind.",
         "description": "The Vector combines a classic stable-overstable midrange rim with GYRO® Technology to provide long straight lines with a late and predictable fade. Vector will fight winds with a straight travel and can handle high-powered throws for maximum accuracy on those hard-to-reach midrange lines.",
-        "avergeCost": 15.95
+        "averageCost": 15.95
     },
     {
         "brandName": "MVP",
@@ -712,7 +712,7 @@
         "fade": 0.5,
         "bestConditions": "The Tangent’s ability to hold an easy neutral line makes it great for finesse approach shots.",
         "description": "Low power throwers will find this disc to be great for easy neutral lines and effortless glide. The Tangent features a smooth profile that offers a sleek modern feel, and will fit your hand like a glove.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "MVP",
@@ -725,7 +725,7 @@
         "fade": 0,
         "bestConditions": "At short range the Spin is a point and shoot straight putter, but at approach and driving distances the Spin will exhibit a responsive turn that can be manipulated by the thrower.",
         "description": "The Spin has a deep profile like the Ion and Anode, which makes it great for glide-filled lofty flights. Its controlled understability makes it suitable for both new and advanced players alike.",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "MVP",
@@ -738,7 +738,7 @@
         "fade": 3,
         "bestConditions": "The Entropy is an overstable Putt and Approach disc designed for flights with reserved glide and a dependable finishing fade. The Entropy delivers as the overstable workhorse putter GYRO® fans have been waiting for.",
         "description": "The Entropy is an overstable Putt and Approach disc designed for flights with reserved glide and a dependable finishing fade. The Entropy delivers as the overstable workhorse putter GYRO® fans have been waiting for. Making its debut in Neutron Plastic in the new 10.5mm MVP Putter class, the Entropy has the premium grip and durability to become your go-to approach or high wind putter. After an extensive development process, the Entropy has arrived and is ready to be disc golf’s next premier overstable putter!",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "MVP",
@@ -751,7 +751,7 @@
         "fade": 1,
         "bestConditions": "Off the tee, the Nomad’s straight-stable flight will let throwers of all power levels experience confident, straight lines",
         "description": "Designed by the World Champion himself — the Nomad has everything James Conrad desires in a putter. From the depth and shoulder height, all the way down to the size of the small bead — the Nomad is James’ vision of an ideal putter. Expect a neutral flight inside the Circle, with some fade kicking in at Circle 2 — making the Nomad great at holding anhyzer or hyzer angles when need be. Off the tee, the Nomad’s straight-stable flight will let throwers of all power levels experience confident, straight lines with just enough glide to stick under the basket — not blow past it.",
-        "avergeCost": 11.95
+        "averageCost": 11.95
     },
     {
         "brandName": "MVP",
@@ -764,7 +764,7 @@
         "fade": 0.5,
         "bestConditions": "The Anode’s straight stable flight is designed for finesse approach shots or straight drives off short tees.",
         "description": "Clean putting releases and straight flights make the Anode our premiere beadless point and shoot putter. Long smooth hyzer and anhyzer lines are made easy with the Anode as an approach disc. Great glide contributes to its ability to adapt to any putting style.",
-        "avergeCost": 10.95
+        "averageCost": 10.95
     },
     {
         "brandName": "MVP",
@@ -777,7 +777,7 @@
         "fade": 1,
         "bestConditions": "The Atom’s relatively large plate diameter and narrow wing design provide an exceptionally long-gliding line. This property combined with the stability neutralizing break-in of Electron and the line locking GYRO® flight phases make the Atom a remarkably controllable putter.",
         "description": "The Atom is a straight flyer with enormous potential off the tee and on long approaches. Right off the shelf, the Atom has a neutral stability with just a bit of fade. In premium GYRO® plastics the Atom will retain its neutral stability indefinitely. In Electron baseline plastic the Atom will wear into an extremely straight and floaty putter, with extra tactile feedback inside the circle or in adverse weather.",
-        "avergeCost": 14.95 
+        "averageCost": 14.95 
     },
     {
         "brandName": "Discraft",
@@ -790,7 +790,7 @@
         "fade": 2,
         "bestConditions": " long bomb understable disc that will glide for days.",
         "description": "Consider this the perfect understable compliment, and archenemies to the Zeus distance driver. With lots of glide and more controllable fade, this is a distance driver suited to most players looking to go big. Disc weights, colors, and foils will vary.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Discraft",
@@ -803,7 +803,7 @@
         "fade": 3,
         "bestConditions": "overstable and intended for experienced players who throw with power. ",
         "description": "If you're throwing hard for maximum distance, reach for the high performance Force. This is Discraft's fastest overstable driver, with a wide rim and jaw-dropping glide that delivers a new level of distance potential.  It's overstable and intended for experienced players who throw with power. ",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Discraft",
@@ -816,7 +816,7 @@
         "fade": 2,
         "bestConditions": "fast, easy release for slower to average arm speeds",
         "description": "The Thrasher is a high speed driver with an easy going turn for maximum distance at lower arm speeds. ",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Discraft",
@@ -829,7 +829,7 @@
         "fade": 2,
         "bestConditions": "Intermediate disc golfers who are looking for a longer drive",
         "description": "Fast stable driver suitable for big arm disc golfers looking for the right mix of stability and speed. The Discraft Crank is described as a cross between the Nuke and the Nuke SS. Discraft has given the Crank a stability rating of 1.3, just enough overstable in this disc to really let you “crank” it. Intermediate disc golfers who are looking for a longer drive will also enjoy this disc.",
-        "avergeCost": 14.95
+        "averageCost": 14.95
     },
     {
         "brandName": "Discraft",
@@ -842,7 +842,7 @@
         "fade": 3,
         "bestConditions": "power throwers looking for max distance and consistency",
         "description": "This Paul McBeth signature disc is similar to the popular Innova Destroyer in flight and feel. The Zeus is a go to driver for power throwers looking for max distance and consistency. The Zeus has a fairly wide rim with a 2.3cm wing length. This is an excellent disc for both forehand and backhand throws for players who can handle the stability.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Discraft",
@@ -855,7 +855,7 @@
         "fade": 2,
         "bestConditions": "easier to control for players with smaller hands.",
         "description": "A super-stable fairway driver with a predictable flight pattern, the Eclipse is an excellent choice for newer disc golfers. This wide diameter driver has a relatively narrow rim (1.4cm) that is easier to control for players with smaller hands. ",
-        "avergeCost": 11.95
+        "averageCost": 11.95
     },
     {
         "brandName": "Discraft",
@@ -868,7 +868,7 @@
         "fade": 1,
         "bestConditions": "super straight flyer with a predictable end of flight fade.",
         "description": "The Zombee is a fairway driver that was introduced by Discraft for the 2012 Ace Race. This is a tall, super straight flyer with a predictable end of flight fade. This disc is like a cross between the midrange Buzzz and the Stalker driver.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Discraft",
@@ -881,7 +881,7 @@
         "fade": 3,
         "bestConditions": "very reliable for shorter fairway drivers",
         "description": "The Anax (pronounced 'Onyx') is Paul McBeth's new signature fairway/power driver. This 10 speed driver will fight the wind and stay straight down the fairway before a nice fade at the end. Slower arm speeds will find this disc to be very reliable for shorter fairway drivers. Big arms can expect big distance out of the Anax.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Discraft",
@@ -894,7 +894,7 @@
         "fade": 4,
         "bestConditions": "perfect disc for forehand flicks in cold weather",
         "description": "The Predator is a predictable, overstable fairway driver. It is not the fastest disc on the market, but it has a reliable and consistent fade. Discraft gives this disc a stability rating of 2.5. This is the perfect disc for forehand flicks. The Predator comes in three high quality Discraft plastics. Elite-Z is a an ultra hard plastic that will withstand brutal punishment. ESP plastic is one of the premium blends available. It is flexible, grip-able, and durable. The FLX blend is even flexible, and a favorite for playing in cold temperatures.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Discraft",
@@ -907,7 +907,7 @@
         "fade": 2,
         "bestConditions": "take on headwinds and offer a flight that can be utilized for both backhand and forehand throws",
         "description": "The Discraft Undertaker is a moderately overstable driver released in the summer of 2016. This disc offers some turn in flight but will finish with a manageable fade. The Undertaker will take on headwinds and offer a flight that can be utilized for both backhand and forehand throws.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Discraft",
@@ -920,7 +920,7 @@
         "fade": 1,
         "bestConditions": "Predictable fade",
         "description": "The Buzzz (3 z’s) is one of the most popular midrange discs in the world. This consistent, reliable, and stable disc will perform exactly how you want it to. With powerful throws the Buzzz will hold any line you put on it. With light, level throws it will fade slightly.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Discraft",
@@ -933,7 +933,7 @@
         "fade": 1,
         "bestConditions": "more control and distance.",
         "description": "As one of the understable midrange discs in Discraft’s lineup, the Meteor is great for controlled turnover throws. If you are right handed, throw backhand, and need a disc that is going to fly to the right, this is the disc you’re looking for. The Meteor will turn and glide giving beginners more control and distance. ",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Discraft",
@@ -946,7 +946,7 @@
         "fade": 1,
         "bestConditions": "versatile disc that can handle all kinds of shots and conditions.",
         "description": "The Discraft Comet is a very popular straight-flying, slightly understable midrange disc. This is a versatile disc that can handle all kinds of shots and conditions. Discraft gives the Comet a stability rating of 0",
-        "avergeCost": 13.95
+        "averageCost": 13.95
     },
     {
         "brandName": "Discraft",
@@ -959,7 +959,7 @@
         "fade": 1,
         "bestConditions": "good turnover disc that will curve towards the anhyzer side.",
         "description": "The Discraft Stratus is one of the best golf discs for beginners. This understable midrange will fly straight and far for players learning throwing techniques. For players with a little more power, the Stratus makes a good turnover disc that will curve towards the anhyzer side.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Discraft",
@@ -972,7 +972,7 @@
         "fade": 3,
         "bestConditions": "strong and controllable flight.",
         "description": "The Malta is Paul McBeth's 4th disc, an overstable midrange. The Malta has a strong and controllable flight. It has a similar feel and flight to the Zone, but having the distance and trustworthiness as a Buzzz. The Diameter is slightly bigger than a Zone, but not as wide as a full size wide-diameter mid range.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Discraft",
@@ -985,7 +985,7 @@
         "fade": 1,
         "bestConditions": "straight flight path with minor turn and limited fade.",
         "description": "The Discraft Soft APX is a super-soft flexible putter made with a special elite plastic. The outstanding grip helps this disc to provide consistent releases and successful putts. The APX is slightly understable. It has an overall straight flight path with minor turn and limited fade.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Discraft",
@@ -998,7 +998,7 @@
         "fade": 3,
         "bestConditions": " low-glide, beadless putter for players who putt with a lot of confidence",
         "description": "he Luna is the first putter in the Paul McBeth line for Discraft. It is his primary putter and it more overstable than a lot of other putters. It works great as a low-glide, beadless putter for players who putt with a lot of confidence. It will be a popular putter due to the reputation of Paul McBeth as a winner and will serve other experienced players well.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Discraft",
@@ -1011,7 +1011,7 @@
         "fade": 2,
         "bestConditions": "mostly stable flight path with a mild fade at the end",
         "description": "The Magnet is a good sized putter that is attracted to metal chains. This is Discraft’s flagship putter, and is used by disc golfers all over the world. The Magnet is shorter than most putters and has a very narrow rim. It has a mostly stable flight path with a mild fade at the end. Discraft gives the Magnet a stability rating of 0. The Discraft Magnet is available in the inexpensive Pro-D plastic. The disc is not too firm, nor too soft, and does a good job of grabbing the chains and landing in the basket.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Discraft",
@@ -1024,7 +1024,7 @@
         "fade": 2,
         "bestConditions": "long approach shots without turning over",
         "description": "The Challenger is a tall overstable putter with a deep rim and a tiny bead. It has a Discraft stability rating of 1, and as an overstable putter is able to handle long approach shots without turning over",
-        "avergeCost": 17.95
+        "averageCost": 17.95
     },
     {
         "brandName": "Discraft",
@@ -1037,7 +1037,7 @@
         "fade": 1,
         "bestConditions": "extra glide",
         "description": "A straight flier with extra glide, the Roach is crafty in avoiding danger while incessantly pursuing chains. Just point and shoot. It's beadless too and feels great in the hand.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Prodigy",
@@ -1050,7 +1050,7 @@
         "fade": 1,
         "bestConditions": "long controlled rollers.",
         "description": "Prodigy Disc D6 is a very fast, under stable driver. It is designed for all players and flies extremely far. The D6 will flip up when thrown hard, turn towards the right (for right-handed throwers) and then go into an extremely long glide, with a gentle draw finish to the left. The D6 is also a great disc for long controlled rollers.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Prodigy",
@@ -1063,7 +1063,7 @@
         "fade": 3,
         "bestConditions": "power throwers, windy shots, forehand throws, and strategic doglegs.",
         "description": "The Prodigy D1 is an overstable, ultra high speed driver (speed 13 using the Innova system). Like all very high speed drivers, the D1 has a thick (2.3 cm) rim. While the rim is considered thick, it isn’t maximum PDGA width. The width is the same as discs such as the Innova Krait and Westside King. While the D1 is overstable, it isn’t a “meathook”, or one we would classify as “very overstable.” The D1 is a fantastic driver for power throwers, windy shots, forehand throws, and strategic doglegs.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Prodigy",
@@ -1076,7 +1076,7 @@
         "fade": 2,
         "bestConditions": "perfect for accurate turn overs and driving up narrow fairways.",
         "description": "The Prodigy X4 is a high speed distance driver with a slim profile. It is slightly understable and is designed to hold a turnover shot- even at low arm speed. The X4 excels at low ceiling and tunnel shots. With higher armspeed, the X4 will turn later in the flight, making it perfect for accurate turn overs and driving up narrow fairways.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Prodigy",
@@ -1089,7 +1089,7 @@
         "fade": 4,
         "bestConditions": "windy conditions or long, right to left hyzer shots",
         "description": "The Prodigy X2 is a consistent, long flying, over stable distance driver designed for multiple skill levels.  Players who are looking for a solid distance driver in windy conditions or long, right to left hyzer shots will feel that the X2 fits perfectly in their bag.  Fans of the X1, the X2 matches in consistency but exceeds in speed and glide.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Prodigy",
@@ -1102,7 +1102,7 @@
         "fade": 2,
         "bestConditions": "very limited end of flight fade",
         "description": "The D4 is a slightly understable distance driver in the Prodigy line. This disc is an amazingly far distance driver for intermediate players, and disc golfers with moderate arm speed. Even beginners and amateurs will have moments where they can make this disc sail. The glide this disc offers is excellent and it has a very limited end of flight fade. The D4 has a soft beveled rim that allows for a smoother, more comfortable release.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Prodigy",
@@ -1115,7 +1115,7 @@
         "fade": 1,
         "bestConditions": "straight shots",
         "description": "The Prodigy F5 is a straight flying fairway driver thats not quite as understable as the current F7. At 1.9cm tall, the F5 is significantly taller than the existing fairway drivers, which all have a height of 1.5cm. This disc is very domey and has a wing length, or rim width, is 1.8cm, just like all the other Prodigy fairways.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Prodigy",
@@ -1128,7 +1128,7 @@
         "fade": 3,
         "bestConditions": "straight shots",
         "description": "The F2 is a stable fairway driver in Prodigy's F-Series. The F2 will hold a straight line before having a reliable fade.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Prodigy",
@@ -1141,7 +1141,7 @@
         "fade": 1,
         "bestConditions": "high-speed turn and a soft, gentle finish",
         "description": "The H4 V2 is the retooled H4 in Prodigy's line of Hybrid Drivers. It is an excellent choice for players of all skill levels. Like the other retooled hybrid drivers, the H4 V2 has a slightly shallower rim and a sharper nose than the original H4, offering a more comfortable grip along with increased speed and glide.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Prodigy",
@@ -1154,7 +1154,7 @@
         "fade": 1,
         "bestConditions": "recreational players, turnover shots, and rollers",
         "description": "The Prodigy F7 is a very understable fairway driver that is great for beginners. This medium speed driver is available in Prodigy’s 400 series plastic and utilizes Easy Release technology. Prodigy recommends this disc for recreational players, turnover shots, and rollers.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Prodigy",
@@ -1167,7 +1167,7 @@
         "fade": 3,
         "bestConditions": "backhands for a long flight before a medium finish",
         "description": "The FX-2 is the first in the new FX Series from Prodigy. The FX Series falls in between the F and H Series, making it a faster fairway driver. The FX-2 offers a straight, long flight before a medium finish. The FX-2 is perfect for backhand and forehand throws alike.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Prodigy",
@@ -1180,7 +1180,7 @@
         "fade": 3,
         "bestConditions": "all wind conditions",
         "description": "The Prodigy M1 is a reliable overstable midrange perfect for power throwers that want to avoid turning over. This disc is consistent and reliable in all wind conditions.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Prodigy",
@@ -1193,7 +1193,7 @@
         "fade": 2,
         "bestConditions": "all wind conditions, especially in heavier weights",
         "description": "The M2 was the second PDGA approved mid range disc in the Prodigy line. It was originally named the M3, but to keep stability ratings consistent, was renamed the M2. This disc is described to be extremely reliable with a stable flight path. The M2 is designed for moderate power throws that need to consistently finish to the left (for right handed back hand throws). It is a consistent flying disc for all wind conditions, especially in heavier weights",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Prodigy",
@@ -1206,7 +1206,7 @@
         "fade": 2,
         "bestConditions": "flies well with the wind",
         "description": "The Prodigy M3 is a domey, stable midrange that flys with incredible consistency and control. This disc is said to be good in all wind conditions and flies as well into the wind as it does with the wind.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Prodigy",
@@ -1219,7 +1219,7 @@
         "fade": 1,
         "bestConditions": "long controlled straight shots.",
         "description": "The M4 is a slightly understable mid in the Prodigy line. This disc is excellent for beginners, tunnel shots, and turnover throws. This disc features Easy Release Technology and is a favorite of top pros for long controlled straight shots.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Prodigy",
@@ -1232,7 +1232,7 @@
         "fade": 1,
         "bestConditions": "short approach shots",
         "description": "The Prodigy M5 is the first understable midrange in the Prodigy Line. For fans of Prodigy looking for a turning mid that will hold long anhyzer lines, this is the disc to choose. Unlike the other Prodigy mid range drivers that all have a very similar feel, the M5 is taller and has a very distinct inner rim which allows for an understable flight, even at low speeds. This disc is recommended for short approach shots for disc golfers of all skill levels.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Prodigy",
@@ -1245,7 +1245,7 @@
         "fade": 3,
         "bestConditions": "won't turn over in any wind conditions",
         "description": "The Prodigy A1 is an overstable utility disc that fills the gap between a midrange and a putter. The A1 is a popular choice for power throwers looking for an overstable disc that won't fly too far, and won't turn over in any wind conditions. ",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     },
     {
         "brandName": "Prodigy",
@@ -1258,7 +1258,7 @@
         "fade": 3,
         "bestConditions": "strong headwinds",
         "description": "The A2 is the beadless cousin of the A1. This disc is perfect for power throwers who want to avoid turning over their upshots, and who need a disc that they can trust in headwinds. The A2 is still very stable, but it has a bit more glide than the A1 does, and can be expected to fly 30-40 feet further than the A1.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Prodigy",
@@ -1271,7 +1271,7 @@
         "fade": 3,
         "bestConditions": "strong to above average throwers",
         "description": "The A3 is an overstable utility disc that fills the gap between midranges and putters. The A3 is perfect for strong to above average throwers who want to avoid the possibility of their shot turning over. The disc is consistent and reliable in all wind conditions and perfect for short, trick shots as well as high wind approach shots.",
-        "avergeCost": 19.95
+        "averageCost": 19.95
     },
     {
         "brandName": "Prodigy",
@@ -1284,7 +1284,7 @@
         "fade": 2,
         "bestConditions": "perfect for short approach shots",
         "description": "The A4 is a slightly overstable disc that fills the distance gap between midranges and putters and is designed for all skill levels. The disc is consistent and reliable in moderate wind conditions and perfect for short approach shots. It works equally as well for backhand or sidearm throwers. The A4, like the A3 has a bead on the rim. You can expect it to fly slightly less stable than the A3 with an extra 40-50 feet in distance.",
-        "avergeCost": 20.95
+        "averageCost": 20.95
     },
     {
         "brandName": "Prodigy",
@@ -1297,6 +1297,6 @@
         "fade": 1,
         "bestConditions": "windy and slippery situations",
         "description": "The fourth putter in the Prodigy line is described as “the straightest flying” prodigy putter. The PA3 is a beaded putter, meaning there is a small bump around the edge of the bottom rim. Many disc golfers find putters with beaded rims to provide a more comfortable grip.",
-        "avergeCost": 16.95
+        "averageCost": 16.95
     }
 ]
