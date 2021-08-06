@@ -27,10 +27,10 @@ Disc.init(
         type: DataTypes.INTEGER,
       },
       bestConditions: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
       },
       description: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
       },
       averageCost: {
         type: DataTypes.STRING,
@@ -38,6 +38,7 @@ Disc.init(
     },
     {
       sequelize,
+      freezeTableName: true,
       timestamps: false,
       underscored: true,
       modelName: 'disc'
