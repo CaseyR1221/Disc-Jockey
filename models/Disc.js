@@ -11,6 +11,9 @@ Disc.init(
       discName: {
         type: DataTypes.STRING,
       },
+      image: {
+        type: DataTypes.STRING,
+      },
       range: {
         type: DataTypes.STRING,
       },
@@ -33,7 +36,7 @@ Disc.init(
         type: DataTypes.TEXT,
       },
       averageCost: {
-        type: DataTypes.STRING,
+        type: DataTypes.DOUBLE,
       },
     },
     {
