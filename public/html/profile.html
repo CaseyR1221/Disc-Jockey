@@ -1,82 +1,134 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Disc Jockey</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="/public/css/style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Disc Jockey Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body class="has-background-black-bis">
-    <header class="">
-        <nav class="navbar is-flex is-align-items-center has-background-black" role="navigation">
-            <h1 class="has-text-white title pt-5 px-5">Disc Jockey</h1>
-            <a class="navbar-item">Home</a>
-            <a class="navbar-item">Discs</a>
-            <a class="navbar-item">Courses</a>
-            <a class="navbar-item">Logout</a>
-            <a class="navbar-item">Login</a>
-            <a class="navbar-item">Profile</a>
-        </nav>
-    </header>
-<main class="section has-text-white">
-    <div class="mb-6">
-        <h2 class="is-size-1 has-text-centered has-text-weight-bold">User Profile</h2>
+  <body class="has-background-black">
+    <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a
+          class="navbar-item has-text-white title pt-5 px-5"
+          href="https://bulma.io"
+        >
+          <img src="../assets/logo.jpg" alt="Disc-Jockies Logo">
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item nav-Item"> Home </a>
+
+          <a class="navbar-item nav-Item"> Disc List </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link nav-Item"> My Stuff </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item"> My Discs </a>
+              <a class="navbar-item"> My Courses </a>
+              <a class="navbar-item"> My Score Cards </a>
+              <hr class="navbar-divider" />
+              <a class="navbar-item"> Report an issue </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light"> Log in </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="tile is-ancestor is-fullheight-100vh">
+      <div
+        id="left-tile"
+        class="tile is-4 is-vertical is-parent has-background-black"
+      >
+        <div class="tile is-child box has-background-link">
+          <p class="title">One</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas
+            non massa sem. Etiam finibus odio quis feugiat facilisis.
+          </p>
+        </div>
+        <div class="tile is-child box is-12 has-background-primary">
+          <p class="title">Two</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas
+            non massa sem. Etiam finibus odio quis feugiat facilisis.
+          </p>
+        </div>
+      </div>
+
+      <div class="tile is-parent is-2"></div>
+
+      <div id="right-tile" class="tile is-parent is-5">
+        <div class="tile is-child box">
+          <p class="title">Three</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum
+            volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi
+            maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis
+            semper odio felis ut quam.
+          </p>
+          <p>
+            Suspendisse varius ligula in molestie lacinia. Maecenas varius eget
+            ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus,
+            augue diam porttitor lorem, et sollicitudin felis neque sit amet
+            erat. Maecenas imperdiet felis nisi, fringilla luctus felis
+            hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim
+            turpis. Sed eget varius ligula, at volutpat tortor.
+          </p>
+          <p>
+            Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus
+            erat, vitae congue lectus dolor consequat libero. Donec leo ligula,
+            maximus et pellentesque sed, gravida a metus. Cras ullamcorper a
+            nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero.
+            Quisque non semper leo.
+          </p>
+        </div>
+      </div>
     </div>
 
-                <h3 class="is-size-2 has-text-centered">New Scorecard</h3>
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <!-- Put any content you want -->
-                            <div class="tile-content">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <p class="title is-4">Course Name: </p>
-                                        <p class="subtitle is-6">Par: </p>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <p>Holes:</p>
-                                    <div class="is-flex is-flex-direction-row">
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>{{hole 1-18 par}}</p>
-                                            <p>{{hole 1-18 score}}</p>
-                                        </div>
-                                    </div>
-                                    <p>Score:</p>
-                                    <button>submit</button>
-                                </div>
-                            </div>
-                          </article>
-                    </div>
-                </div>
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent is-4">
-                        <article class="tile is-child box">
-                            <p class="title">Most Recent Score Card</p>
-                            <p class="subtitle">Aligned with the right column</p>
-                            <div class="content">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                            </div>
-                          </article>
-                    </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                          <div class="content">
-                            <p class="title">Most Recent Reviews</p>
-                            <p class="subtitle">With even more content</p>
-                            <div class="content">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-                              <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
-                              <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
-                            </div>
-                          </div>
-                        </article>
-                      </div>
-                  </div>
-</main>
-
-        <!-- Script tags -->
+    <footer class="footer has-background-primary">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Disc-Jockies</strong> by
+          <a href="https://github.com/CaseyR1221/Disc-Jockey">The Hyzers</a>.
+          The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+        </p>
+      </div>
+    </footer>
+    <!-- Script tags -->
   </body>
 </html>

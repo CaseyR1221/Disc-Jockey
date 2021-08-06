@@ -4,13 +4,18 @@ const { Disc } = require('../models');
 const discData = require('./discData.json');
 
 const seedDatabase = async () => {
-  await sequelize.sync({ force: true });
+  try {
+    await sequelize.sync({ force: true });
 
-  await Disc.bulkCreate(discData, {
-    individualHooks: true
-  });
+    await Disc.bulkCreate(discData, {
+      individualHooks: true
+    });
 
-  process.exit(0);
+    process.exit(0);
+  } catch (err) {
+    console.log(err);
+  }
+  
 };
 
 seedDatabase();

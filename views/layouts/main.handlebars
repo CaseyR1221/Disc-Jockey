@@ -1,24 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Disc Jockey</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body>
-    <h1 class="title">Disc Jockey</h1>
-    <nav class="navbar is-flex is-justify-content-space-between" role="navigation">
-        <a class="navbar-item">Home</a>
-        <a class="navbar-item">Discs</a>
-        <a class="navbar-item">Courses</a>
-        {{#if logged_in}}
-            <a class="navbar-item">Logout</a>
-        {{else}}
-            <a class="navbar-item">Login</a>
-        {{/if}}
-        <a class="navbar-item">Profile</a>
-    </nav>
+
+  <body class="has-background-black">
+    <header class="">
+      <nav
+        class="navbar is-link"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a
+            class="navbar-item has-text-white title pt-5 px-5"
+            href="https://bulma.io"
+          >
+            <img src="../assets/logo.jpg" alt="Disc-Jockies Logo">
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a href="/" class="navbar-item nav-Item"> Home </a>
+
+            <a href="/discs" class="navbar-item nav-Item"> Discs </a>
+
+            <a href="/courses" class="navbar-item nav-Item"> Courses </a>
+
+            <a href="/api/users/profile" class="navbar-item nav-Item"> Profile </a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light"> Login </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
         {{{body}}}
 
         <!-- Script tags -->
