@@ -1,4 +1,4 @@
- <main class="has-background-black">
+ <main class="has-background-black m-5">
       <div class="mb-6 has-text-white">
         <h2 class="is-size-1 has-text-centered has-text-weight-bold">
           Welcome to Disc-Jockies!
@@ -55,7 +55,9 @@
               </div>
             </div>
           </article>
+        </div>
 
+        <div class="tile is-parent">
           <article class="tile is-child box middle-disc">
             <!-- Put any content you want -->
             <figure class="image is-4by3">
@@ -96,7 +98,9 @@
               </div>
             </div>
           </article>
+        </div>
 
+        <div class="tile is-parent">
           <article class="tile is-child box">
             <!-- Put any content you want -->
             <figure class="image is-4by3">
@@ -139,34 +143,18 @@
           </article>
         </div>
       </div>
+
       <div class="tile is-ancestor">
         <div class="tile is-parent is-8 has-background-black">
           <div class="tile is-child box has-background-link">
             <p class="title">Reviews</p>
             <p class="subtitle">Aligned with the right column</p>
             <div class="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                semper diam at erat pulvinar, at pulvinar felis blandit.
-                Vestibulum volutpat tellus diam, consequat gravida libero
-                rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc
-                dui porta orci, quis semper odio felis ut quam.
-              </p>
-              <p>
-                Suspendisse varius ligula in molestie lacinia. Maecenas varius
-                eget ligula a sagittis. Pellentesque interdum, nisl nec interdum
-                maximus, augue diam porttitor lorem, et sollicitudin felis neque
-                sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus
-                felis hendrerit sit amet. Aenean vitae gravida diam, finibus
-                dignissim turpis. Sed eget varius ligula, at volutpat tortor.
-              </p>
-              <p>
-                Integer sollicitudin, tortor a mattis commodo, velit urna
-                rhoncus erat, vitae congue lectus dolor consequat libero. Donec
-                leo ligula, maximus et pellentesque sed, gravida a metus. Cras
-                ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis
-                faucibus libero. Quisque non semper leo.
-              </p>
+              {{#each reveiws as |review|}}
+                <h2>{{review.disc.discName}}</h2>
+                <h3>{{review.user}}</h3>
+                <p>{{review.body}}</p>
+              {{/each}}
             </div>
           </div>
         </div>
@@ -185,6 +173,7 @@
           </div>
         </div>
       </div>
+    </main>
 
       <footer class="footer has-background-primary">
         <div class="content has-text-centered had-text-black">
@@ -196,4 +185,3 @@
           </p>
         </div>
       </footer>
-    </main>

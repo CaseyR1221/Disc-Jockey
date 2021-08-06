@@ -5,7 +5,11 @@ const withAuth = require('../../utils/auth');
 
 router.post('/',withAuth, async (req, res) => {
   try {
-    const userData = await User.create(req.body);
+    const userData = await User.create({
+      name: req.body.name,
+      password: req.body.password,
+      email: req.body.email
+    });
 
     req.session.save(() => {
       req.session.user_id = userData.id;
@@ -42,7 +46,7 @@ router.post('/login', async (req, res) => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
       
-      res.json({ user: userData, message: 'You are now logged in!' });
+      res.status(200).json({ user: userData, message: 'You are now logged in!' });
     });
 
   } catch (err) {
@@ -59,8 +63,6 @@ router.post('/logout', (req, res) => {
     res.status(404).end();
   }
 });
-
-module.exports = router;
 
 router.get('/profile', withAuth, async (req, res) => {
   try {
