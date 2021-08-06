@@ -1,7 +1,6 @@
 const router = require('express').Router();
-const { Reviews } = require('../../../../project-2/Disc-Jockey/models');
-const { User } = require('../../models');
-const withAuth = require('../utils/auth');
+const { Reviews, User } = require('../../models');
+const withAuth = require('../../utils/auth');
 
 
 router.post('/',withAuth, async (req, res) => {
@@ -103,3 +102,5 @@ router.get('/disc/:id', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+module.exports = router;
