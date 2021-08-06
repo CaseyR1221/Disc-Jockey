@@ -148,12 +148,12 @@
         <div class="tile is-parent is-8 has-background-black">
           <div class="tile is-child box has-background-link">
             <p class="title">Reviews</p>
-            <p class="subtitle">Aligned with the right column</p>
             <div class="content">
-              {{#each reveiws as |review|}}
-                <h2>{{review.disc.discName}}</h2>
-                <h3>{{review.user}}</h3>
-                <p>{{review.body}}</p>
+              {{#each allReviews as |review|}}
+                <p>{{comment}}</p>
+                <p>{{user_id}}</p>
+                <p>{{disc_id}}</p>
+                <p>{{date_created}}</p>
               {{/each}}
             </div>
           </div>

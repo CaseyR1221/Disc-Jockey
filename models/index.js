@@ -18,8 +18,16 @@ User.hasMany(Reviews, {
     hooks: true
 });
 
+Reviews.belongsTo(User, {
+    foreignKey: 'user_id',
+});
+
 Disc.hasMany(Reviews, {
     foreignKey: 'disc_id',
-})
+});
+
+Reviews.belongsTo(Disc, {
+    foreignKey: 'disc_id',
+});
 
 module.exports= { User, Disc, Reviews, Scorecard }; 

@@ -6,16 +6,7 @@ router.get('/', async (req, res) => {
    try {
         // Get all reviews and JOIN with user data
         const reviewData = await Reviews.findAll({
-            include: [
-                {
-                    model: User,
-                    attributes: ['name'],
-                },
-                {
-                    model: Disc,
-                    attributes: ['discName'],
-                },
-            ],
+            include: [User, Disc]
         });
 
         // Serialize data
