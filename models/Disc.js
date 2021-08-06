@@ -11,6 +11,9 @@ Disc.init(
       discName: {
         type: DataTypes.STRING,
       },
+      image: {
+        type: DataTypes.STRING,
+      },
       range: {
         type: DataTypes.STRING,
       },
