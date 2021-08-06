@@ -2,6 +2,7 @@
     {
         "brandName": "Innova",
         "discName": "Wraith",
+        "image": "DX-Wraith.jpeg",
         "range": "Distance driver",      
         "speed": 11,
         "glide": 5,
@@ -14,6 +15,7 @@
     {
         "brandName": "Innova",
         "discName": "Destoyer",
+        "image": "Star_Destroyer_bot.jpeg",
         "range": "Distance driver",
         "speed": 12,
         "glide": 5,
@@ -26,6 +28,7 @@
     {
         "brandName": "Innova",
         "discName": "Firebird",
+        "image": "DX-Firebird.jpeg",
         "range": "Distance driver",
         "speed": 9,
         "glide": 3,
@@ -38,6 +41,7 @@
     {
         "brandName": "Innova",
         "discName": "Invictus",
+        "image": "GStar_Invictus.jpeg",
         "range": "Distance driver",
         "speed": 10,
         "glide": 4,
@@ -50,6 +54,7 @@
     {
         "brandName": "Innova",
         "discName": "Valkyrie",
+        "image": "DX-Valkyrie.jpeg",
         "range": "Distance driver",
         "speed": 9,
         "glide": 4,
@@ -62,6 +67,7 @@
     {
         "brandName": "Innova",
         "discName": "Teebird3",
+        "image": "DX_TeeBird3.jpegv",
         "range": "Fairway",
         "speed": 8,
         "glide": 4,
@@ -74,6 +80,7 @@
     {
         "brandName": "Innova",
         "discName": "Dragon",
+        "image": "DX-Dragon.jpeg",
         "range": "Fairway",
         "glide": 5,
         "turn": -2,
@@ -86,6 +93,7 @@
     {
         "brandName": "Innova",
         "discName": "Archangel",
+        "image": "DX-Archangel.jpeg",
         "range": "Fairway",
         "glide": 6,
         "turn": -4,
@@ -98,6 +106,7 @@
     {
         "brandName": "Innova",
         "discName": "Eagle",
+        "image": "Eagle_featured.jpeg",
         "range": "Fairway",
         "speed": 7,
         "glide": 4,
@@ -110,6 +119,7 @@
     {
         "brandName": "Innova",
         "discName": "Cheetah",
+        "image": "DX-Cheetah.jpeg",
         "range": "Fairway",
         "speed": 6,
         "glide": 4,
@@ -122,6 +132,7 @@
     {
         "brandName": "Innova",
         "discName": "RocX3",
+        "image": "DX-Roc3.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -134,6 +145,7 @@
     {
         "brandName": "Innova",
         "discName": "Mako3",
+        "image": "Star-Mako3.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -145,19 +157,21 @@
     },
     {
         "brandName": "Innova",
-        "discName": "Wombat",
+        "discName": "Wombat3",
+        "image": "wombat-blue-angle.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 6,
         "turn": -1,
         "fade": 0,
         "bestConditions": "Straight shots, Holding a line, Technical approaches",
-        "description": "The Wombat with VTech feels better in the hand, is easier to throw, and has more meat in the rim for extra torque resistance. Straight shots still go straight and turnovers stay turned with a gentle flat landing.",
+        "description": "The Wombat3 with VTech feels better in the hand, is easier to throw, and has more meat in the rim for extra torque resistance. Straight shots still go straight and turnovers stay turned with a gentle flat landing.",
         "avergeCost": "$13.95"
     },
     {
         "brandName": "Innova",
         "discName": "Avatar",
+        "image": "star_avatar.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -170,6 +184,7 @@
     {
         "brandName": "Innova",
         "discName": "Cobra",
+        "image": "DX-Cobra.jpeg",
         "range": "Mid-Range",
         "speed": 4,
         "glide": 5,
@@ -182,6 +197,7 @@
     {
         "brandName": "Innova",
         "discName": "Birdie",
+        "image": "DX-Birdie.jpeg",
         "range": "Putter",
         "speed": 1,
         "glide": 2,
@@ -194,6 +210,7 @@
     {
         "brandName": "Innova",
         "discName": "Aviar",
+        "image": "DX-Aviar.jpeg",
         "range": "Putter",
         "speed": 2,
         "glide": 3,
@@ -206,6 +223,7 @@
     {
         "brandName": "Innova",
         "discName": "Dart",
+        "image": "R-Pro-Dart.jpeg",
         "range": "Putter",
         "speed": 3,
         "glide": 4,
@@ -218,6 +236,7 @@
     {
         "brandName": "Innova",
         "discName": "Nova",
+        "image": "XT_Nova.jpeg",
         "range": "Putter",
         "speed": 2,
         "glide": 3,
@@ -230,6 +249,7 @@
     {
         "brandName": "Innova",
         "discName": "Whale",
+        "image": "02_DX_Whale.jpeg",
         "range": "Putter",
         "speed": 2,
         "glide": 3,
@@ -242,6 +262,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Captain",
+        "image": "captain.jpeg",
         "range": "Distance driver",
         "speed": 13,
         "glide": 5,
@@ -254,6 +275,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Defender",
+        "image": "dynamic-discs-lucid-defender.jpeg",
         "range": "Distance driver",
         "speed": 13,
         "glide": 5,
@@ -266,6 +288,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Renegade",
+        "image": "renegade.jpeg",
         "range": "Distance driver",
         "speed": 11,
         "glide": 5,
@@ -278,6 +301,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Enforcer",
+        "image": "enforcer.jpeg",
         "range": "Distance driver",
         "speed": 12,
         "glide": 4,
@@ -290,6 +314,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Freedom",
+        "image": "freedom.jpeg",
         "range": "Distance driver",
         "speed": 14,
         "glide": 5,
@@ -302,6 +327,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Vandal",
+        "image": "vandal.jpeg",
         "range": "Fairway",
         "speed": 9,
         "glide": 5,
@@ -314,6 +340,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Musket",
+        "image": "Musket.jpeg",
         "range": "Fairway",
         "speed": 10,
         "glide": 5,
@@ -326,6 +353,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Breakout",
+        "image": "breakout.jpeg",
         "range": "Fairway",
         "speed": 8,
         "glide": 5,
@@ -338,6 +366,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Maverick",
+        "image": "maverick.jpeg",
         "range": "Fairway",
         "speed": 7,
         "glide": 4,
@@ -350,6 +379,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Stag",
+        "image": "stag.jpeg",
         "range": "Fairway",
         "speed": 8,
         "glide": 6,
@@ -362,6 +392,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Justice",
+        "image": "justice.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 1,
@@ -374,6 +405,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Truth",
+        "image": "truth.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -386,6 +418,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Bounty",
+        "image": "bounty.jpeg",
         "range": "Mid-Range",
         "speed": 4,
         "glide": 5,
@@ -398,6 +431,7 @@
     {
         "brandName": "Dynamic",
         "discName": "EMAC Truth",
+        "image": "truth-emac.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -410,6 +444,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Verdict",
+        "image": "verdict.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -421,7 +456,8 @@
     },
     {
         "brandName": "Dynamic",
-        "discName": "Marchal",
+        "discName": "Marshal",
+        "image": "marshal.jpeg",
         "range": "Putter",
         "speed": 3,
         "glide": 4,
@@ -434,6 +470,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Deputy",
+        "image": "deputy.jpeg",
         "range": "Putter",
         "speed": 3,
         "glide": 4,
@@ -446,6 +483,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Judge",
+        "image": "judge.jpeg",
         "range": "Putter",
         "speed": 2,
         "glide": 4,
@@ -458,6 +496,7 @@
     {
         "brandName": "Dynamic",
         "discName": "EMAC Judge",
+        "image": "EMAC-judge.jpeg",
         "range": "Putter",
         "speed": 2,
         "glide": 4,
@@ -470,6 +509,7 @@
     {
         "brandName": "Dynamic",
         "discName": "Warden",
+        "image": "warden.jpeg",
         "range": "Putter",
         "speed": 2,
         "glide": 4,
@@ -482,6 +522,7 @@
     {
         "brandName": "MVP",
         "discName": "Teleport",
+        "image": "",
         "range": "Distance driver",
         "speed": 14.5,
         "glide": 5,
@@ -494,6 +535,7 @@
     {
         "brandName": "MVP",
         "discName": "Nitro",
+        "image": "",
         "range": "Distance driver",
         "speed": 13,
         "glide": 4,
@@ -506,6 +548,7 @@
     {
         "brandName": "MVP",
         "discName": "Octane",
+        "image": "",
         "range": "Distance driver",
         "speed": 13,
         "glide": 5,
@@ -518,6 +561,7 @@
     {
         "brandName": "MVP",
         "discName": "Wave",
+        "image": "",
         "range": "Distance driver",
         "speed": 11,
         "glide": 5,
@@ -530,6 +574,7 @@
     {
         "brandName": "MVP",
         "discName": "Tesla",
+        "image": "",
         "range": "Distance driver",
         "speed": 9,
         "glide": 5,
@@ -542,6 +587,7 @@
     {
         "brandName": "MVP",
         "discName": "Volt",
+        "image": "",
         "range": "Fairway",
         "speed": 8,
         "glide": 5,
@@ -554,6 +600,7 @@
     {
         "brandName": "MVP",
         "discName": "Servo",
+        "image": "",
         "range": "Fairway",
         "speed": 6.5,
         "glide": 5,
@@ -566,6 +613,7 @@
     {
         "brandName": "MVP",
         "discName": "Switch",
+        "image": "",
         "range": "Fairway",
         "speed": 6.5,
         "glide": 5,
@@ -578,6 +626,7 @@
     {
         "brandName":"MVP" ,
         "discName": "Relay",
+        "image": "",
         "range": "Fairway",
         "speed": 6,
         "glide": 5,
@@ -590,6 +639,7 @@
     {
         "brandName": "MVP",
         "discName": "Signal",
+        "image": "",
         "range": "Fairway",
         "speed": 6,
         "glide": 5,
@@ -602,6 +652,7 @@
     {
         "brandName": "MVP",
         "discName": "Deflector",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 3.5,
@@ -614,6 +665,7 @@
     {
         "brandName": "MVP",
         "discName": "Reactor",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -626,6 +678,7 @@
     {
         "brandName": "MVP",
         "discName": "Matrix",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -638,6 +691,7 @@
     {
         "brandName": "MVP",
         "discName": "Vector",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -650,6 +704,7 @@
     {
         "brandName": "MVP",
         "discName": "Tangent",
+        "image": "",
         "range": "Mid-Range",
         "speed": 4,
         "glide": 4,
@@ -662,6 +717,7 @@
     {
         "brandName": "MVP",
         "discName": "Spin",
+        "image": "",
         "range": "Putter",
         "speed": 2.5,
         "glide": 4,
@@ -674,6 +730,7 @@
     {
         "brandName": "MVP",
         "discName": "Entropy",
+        "image": "",
         "range": "Putter",
         "speed": 4,
         "glide": 3,
@@ -686,6 +743,7 @@
     {
         "brandName": "MVP",
         "discName": "Nomad",
+        "image": "",
         "range": "Putter",
         "speed": 2,
         "glide": 4,
@@ -698,6 +756,7 @@
     {
         "brandName": "MVP",
         "discName": "Anode",
+        "image": "",
         "range": "Putter",
         "speed": 2.5,
         "glide": 3,
@@ -710,6 +769,7 @@
     {
         "brandName": "MVP",
         "discName": "Atom",
+        "image": "",
         "range": "Putter",
         "speed": 3,
         "glide": 3,
@@ -722,6 +782,7 @@
     {
         "brandName": "Discraft",
         "discName": "Hades",
+        "image": "",
         "range": "Distance driver",
         "speed": 12,
         "glide": 6,
@@ -734,6 +795,7 @@
     {
         "brandName": "Discraft",
         "discName": "Force",
+        "image": "",
         "range": "Distance driver",
         "speed": 12,
         "glide": 5,
@@ -746,6 +808,7 @@
     {
         "brandName": "Discraft",
         "discName": "Thrasher",
+        "image": "",
         "range": "Distance driver",
         "speed": 12,
         "glide": 5,
@@ -758,6 +821,7 @@
     {
         "brandName": "Discraft",
         "discName": "Crank",
+        "image": "",
         "range": "Distance driver",
         "speed": 13,
         "glide": 5,
@@ -782,6 +846,7 @@
     {
         "brandName": "Discraft",
         "discName": "Eclipse",
+        "image": "",
         "range": "Fairway",
         "speed": 7,
         "glide": 5,
@@ -794,6 +859,7 @@
     {
         "brandName": "Discraft",
         "discName": "Zombee",
+        "image": "",
         "range": "Fairway",
         "speed": 6,
         "glide": 5,
@@ -806,6 +872,7 @@
     {
         "brandName": "Discraft",
         "discName": "Anex",
+        "image": "",
         "range": "Fairway",
         "speed": 10,
         "glide": 6,
@@ -818,6 +885,7 @@
     {
         "brandName": "Discraft",
         "discName": "Predator",
+        "image": "",
         "range": "Fairway",
         "speed": 9,
         "glide": 4,
@@ -830,6 +898,7 @@
     {
         "brandName": "Discraft",
         "discName": "Undertaker",
+        "image": "",
         "range": "Fairway",
         "speed": 9,
         "glide": 5,
@@ -842,6 +911,7 @@
     {
         "brandName": "Discraft",
         "discName": "Buzzz",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -854,6 +924,7 @@
     {
         "brandName": "Discraft",
         "discName": "Meteor",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -866,6 +937,7 @@
     {
         "brandName": "Discraft",
         "discName": "Comet",
+        "image": "",
         "range": "Mid-Range",
         "speed": 4,
         "glide": 5,
@@ -878,6 +950,7 @@
     {
         "brandName": "Discraft",
         "discName": "Stratus",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -890,6 +963,7 @@
     {
         "brandName": "Discraft",
         "discName": "Malta",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -902,6 +976,7 @@
     {
         "brandName": "Discraft",
         "discName": "APX",
+        "image": "",
         "range": "Putter",
         "speed": 2,
         "glide": 3,
@@ -914,6 +989,7 @@
     {
         "brandName": "Discraft",
         "discName": "Luna",
+        "image": "",
         "range": "Putter",
         "speed": 3,
         "glide": 3,
@@ -926,6 +1002,7 @@
     {
         "brandName": "Discraft",
         "discName": "Magnet",
+        "image": "",
         "range": "Putter",
         "speed": 2,
         "glide": 3,
@@ -938,6 +1015,7 @@
     {
         "brandName": "Discraft",
         "discName": "Challenger",
+        "image": "",
         "range": "Putter",
         "speed": 2,
         "glide": 3,
@@ -950,6 +1028,7 @@
     {
         "brandName": "Discraft",
         "discName": "Roach",
+        "image": "",
         "range": "Putter",
         "speed": 2,
         "glide": 4,
@@ -962,6 +1041,7 @@
     {
         "brandName": "Prodigy",
         "discName": "D6",
+        "image": "",
         "range": "Distance driver",
         "speed": 12,
         "glide": 6,
@@ -974,6 +1054,7 @@
     {
         "brandName": "Prodigy",
         "discName": "D1",
+        "image": "",
         "range": "Distance driver",
         "speed": 12,
         "glide": 5,
@@ -986,6 +1067,7 @@
     {
         "brandName": "Prodigy",
         "discName": "X4",
+        "image": "",
         "range": "Distance driver",
         "speed": 13,
         "glide": 5,
@@ -998,6 +1080,7 @@
     {
         "brandName": "Prodigy",
         "discName": "X2",
+        "image": "",
         "range": "Distance driver",
         "speed": 13,
         "glide": 4,
@@ -1010,6 +1093,7 @@
     {
         "brandName": "Prodigy",
         "discName": "D4",
+        "image": "",
         "range": "Distance driver",
         "speed": 12,
         "glide": 6,
@@ -1022,6 +1106,7 @@
     {
         "brandName": "Prodigy",
         "discName": "F5",
+        "image": "",
         "range": "Fairway",
         "speed": 7,
         "glide": 5,
@@ -1034,6 +1119,7 @@
     {
         "brandName": "Prodigy",
         "discName": "F2",
+        "image": "",
         "range": "Fairway",
         "speed": 7,
         "glide": 5,
@@ -1046,6 +1132,7 @@
     {
         "brandName": "Prodigy",
         "discName": "H4 V2",
+        "image": "",
         "range": "Fairway",
         "speed": 10,
         "glide": 5,
@@ -1058,6 +1145,7 @@
     {
         "brandName": "Prodigy",
         "discName": "F7",
+        "image": "",
         "range": "Fairway",
         "speed": 7,
         "glide": 5,
@@ -1070,6 +1158,7 @@
     {
         "brandName": "Prodigy",
         "discName": "FX-2",
+        "image": "",
         "range": "Fairway",
         "speed": 9,
         "glide": 4,
@@ -1082,6 +1171,7 @@
     {
         "brandName": "Prodigy",
         "discName": "M1",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -1094,6 +1184,7 @@
     {
         "brandName": "Prodigy",
         "discName": "M2",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -1106,6 +1197,7 @@
     {
         "brandName": "Prodigy",
         "discName": "M3",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -1118,6 +1210,7 @@
     {
         "brandName": "Prodigy",
         "discName": "M4",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -1130,6 +1223,7 @@
     {
         "brandName": "Prodigy",
         "discName": "M5",
+        "image": "",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -1142,6 +1236,7 @@
     {
         "brandName": "Prodigy",
         "discName": "A1",
+        "image": "",
         "range": "Putter",
         "speed": 3,
         "glide": 3,
@@ -1154,6 +1249,7 @@
     {
         "brandName": "Prodigy",
         "discName": "A2",
+        "image": "",
         "range": "Putter",
         "speed": 4,
         "glide": 4,
@@ -1166,6 +1262,7 @@
     {
         "brandName": "Prodigy",
         "discName": "A3",
+        "image": "",
         "range": "Putter",
         "speed": 4,
         "glide": 4,
@@ -1178,6 +1275,7 @@
     {
         "brandName": "Prodigy",
         "discName": "A4",
+        "image": "",
         "range": "Putter",
         "speed": 4,
         "glide": 4,
@@ -1190,6 +1288,7 @@
     {
         "brandName": "Prodigy",
         "discName": "PA-3",
+        "image": "",
         "range": "Putter",
         "speed": 3,
         "glide": 4,
