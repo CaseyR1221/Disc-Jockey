@@ -1,231 +1,288 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Disc Jockey</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="/public/css/style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Disc Jockey Discs</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body class="has-background-black-bis">
     <header class="">
-        <nav class="navbar is-flex is-align-items-center has-background-black" role="navigation">
-            <h1 class="has-text-white title pt-5 px-5">Disc Jockey</h1>
-            <a class="navbar-item">Home</a>
-            <a class="navbar-item">Discs</a>
-            <a class="navbar-item">Courses</a>
-            <a class="navbar-item">Logout</a>
-            <a class="navbar-item">Login</a>
-            <a class="navbar-item">Profile</a>
-        </nav>
+      <nav
+        class="navbar is-link"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a
+            class="navbar-item has-text-white title pt-5 px-5"
+            href="https://bulma.io"
+          >
+            <img src="../assets/logo.jpg" alt="Disc-Jockies Logo">
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item nav-Item"> Home </a>
+
+            <a class="navbar-item nav-Item"> Discs </a>
+
+            <a class="navbar-item nav-Item"> Courses </a>
+
+            <a class="navbar-item nav-Item"> Profile </a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light"> Login </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
-<main class="section has-text-white">
-    <div class="mb-6">
-        <h2 class="is-size-1 has-text-centered has-text-weight-bold">Welcome to Disc-Jockies!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
+    <main class="section has-text-white">
+      <div class="mb-6">
+        <h2 class="is-size-1 has-text-centered has-text-weight-bold">
+          Welcome to Disc-Jockies!
+        </h2>
+        <p class="has-text-centered">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
 
-    <!-- This is the box to get the aside and recent reviews next to each other -->
-        <!-- This is the aside to hold Favorite discs and upcoming tournaments -->
-            <!-- This is the Favorite discs box -->
-                <h2 class="is-size-2 has-text-centered">Discs</h2>
+      <!-- This is the box to get the aside and recent reviews next to each other -->
+      <!-- This is the aside to hold Favorite discs and upcoming tournaments -->
+      <!-- This is the Favorite discs box -->
+      <h2 class="is-size-2 has-text-centered">Discs</h2>
 
-                <!-- This is the row tile -->
-                <div class="tile is-ancestor">
-
-                    <!-- This is the individual tile -->
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <!-- Put any content you want -->
-                            <div class="tile-content">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <h3 class="title is-4">discName</h3>
-                                        <p class="subtitle is-6">discBrand</p>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <p>Desciption:</p>
-                                    <p></p>
-                                    <p>Specs:</p>
-                                    <div class="is-flex is-flex-direction-row">
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Speed</p>
-                                            <p>speed</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Glide </p>
-                                            <p>glide</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Turn </p>
-                                            <p>turn</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Fade </p>
-                                            <p>fade</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                          </article> 
-                    </div>
-
-                    <!-- This is the individual tile -->
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <!-- Put any content you want -->
-                            <div class="tile-content">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <h3 class="title is-4">discName</h3>
-                                        <p class="subtitle is-6">discBrand</p>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <p>Desciption:</p>
-                                    <p></p>
-                                    <p>Specs:</p>
-                                    <div class="is-flex is-flex-direction-row">
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Speed</p>
-                                            <p>speed</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Glide </p>
-                                            <p>glide</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Turn </p>
-                                            <p>turn</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Fade </p>
-                                            <p>fade</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                          </article> 
-                    </div>
-
-                    <!-- This is the individual tile -->
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <!-- Put any content you want -->
-                            <div class="tile-content">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <h3 class="title is-4">discName</h3>
-                                        <p class="subtitle is-6">discBrand</p>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <p>Desciption:</p>
-                                    <p></p>
-                                    <p>Specs:</p>
-                                    <div class="is-flex is-flex-direction-row">
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Speed</p>
-                                            <p>speed</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Glide </p>
-                                            <p>glide</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Turn </p>
-                                            <p>turn</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Fade </p>
-                                            <p>fade</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                          </article> 
-                    </div>
-
-                    <!-- This is the individual tile -->
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <!-- Put any content you want -->
-                            <div class="tile-content">
-                                <div class="media">
-                                    <div class="media-content">
-                                        <h3 class="title is-4">discName</h3>
-                                        <p class="subtitle is-6">discBrand</p>
-                                    </div>
-                                </div>
-                                <div class="content">
-                                    <p>Desciption:</p>
-                                    <p></p>
-                                    <p>Specs:</p>
-                                    <div class="is-flex is-flex-direction-row">
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Speed</p>
-                                            <p>speed</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Glide </p>
-                                            <p>glide</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Turn </p>
-                                            <p>turn</p>
-                                        </div>
-                                        <div class="is-flex is-flex-direction-column p-1">
-                                            <p>Fade </p>
-                                            <p>fade</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                          </article> 
-                    </div>
-
-                                        <!-- This is the individual tile -->
-                                        <div class="tile is-parent">
-                                            <article class="tile is-child box">
-                                                <!-- Put any content you want -->
-                                                <div class="tile-content">
-                                                    <div class="media">
-                                                        <div class="media-content">
-                                                            <h3 class="title is-4">discName</h3>
-                                                            <p class="subtitle is-6">discBrand</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="content">
-                                                        <p>Desciption:</p>
-                                                        <p></p>
-                                                        <p>Specs:</p>
-                                                        <div class="is-flex is-flex-direction-row">
-                                                            <div class="is-flex is-flex-direction-column p-1">
-                                                                <p>Speed</p>
-                                                                <p>speed</p>
-                                                            </div>
-                                                            <div class="is-flex is-flex-direction-column p-1">
-                                                                <p>Glide </p>
-                                                                <p>glide</p>
-                                                            </div>
-                                                            <div class="is-flex is-flex-direction-column p-1">
-                                                                <p>Turn </p>
-                                                                <p>turn</p>
-                                                            </div>
-                                                            <div class="is-flex is-flex-direction-column p-1">
-                                                                <p>Fade </p>
-                                                                <p>fade</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                              </article> 
-                                        </div>
-
+      <!-- This is the row tile -->
+      <div class="tile is-ancestor">
+        <!-- This is the individual tile -->
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <!-- Put any content you want -->
+            <div class="tile-content">
+              <div class="media">
+                <div class="media-content">
+                  <h3 class="title is-4">discName</h3>
+                  <p class="subtitle is-6">discBrand</p>
                 </div>
-</main>
+              </div>
+              <div class="content">
+                <p>Desciption:</p>
+                <p></p>
+                <p>Specs:</p>
+                <div class="is-flex is-flex-direction-row">
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Speed</p>
+                    <p>speed</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Glide</p>
+                    <p>glide</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Turn</p>
+                    <p>turn</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Fade</p>
+                    <p>fade</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
 
-        <!-- Script tags -->
+        <!-- This is the individual tile -->
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <!-- Put any content you want -->
+            <div class="tile-content">
+              <div class="media">
+                <div class="media-content">
+                  <h3 class="title is-4">discName</h3>
+                  <p class="subtitle is-6">discBrand</p>
+                </div>
+              </div>
+              <div class="content">
+                <p>Desciption:</p>
+                <p></p>
+                <p>Specs:</p>
+                <div class="is-flex is-flex-direction-row">
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Speed</p>
+                    <p>speed</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Glide</p>
+                    <p>glide</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Turn</p>
+                    <p>turn</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Fade</p>
+                    <p>fade</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- This is the individual tile -->
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <!-- Put any content you want -->
+            <div class="tile-content">
+              <div class="media">
+                <div class="media-content">
+                  <h3 class="title is-4">discName</h3>
+                  <p class="subtitle is-6">discBrand</p>
+                </div>
+              </div>
+              <div class="content">
+                <p>Desciption:</p>
+                <p></p>
+                <p>Specs:</p>
+                <div class="is-flex is-flex-direction-row">
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Speed</p>
+                    <p>speed</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Glide</p>
+                    <p>glide</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Turn</p>
+                    <p>turn</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Fade</p>
+                    <p>fade</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- This is the individual tile -->
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <!-- Put any content you want -->
+            <div class="tile-content">
+              <div class="media">
+                <div class="media-content">
+                  <h3 class="title is-4">discName</h3>
+                  <p class="subtitle is-6">discBrand</p>
+                </div>
+              </div>
+              <div class="content">
+                <p>Desciption:</p>
+                <p></p>
+                <p>Specs:</p>
+                <div class="is-flex is-flex-direction-row">
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Speed</p>
+                    <p>speed</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Glide</p>
+                    <p>glide</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Turn</p>
+                    <p>turn</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Fade</p>
+                    <p>fade</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- This is the individual tile -->
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <!-- Put any content you want -->
+            <div class="tile-content">
+              <div class="media">
+                <div class="media-content">
+                  <h3 class="title is-4">discName</h3>
+                  <p class="subtitle is-6">discBrand</p>
+                </div>
+              </div>
+              <div class="content">
+                <p>Desciption:</p>
+                <p></p>
+                <p>Specs:</p>
+                <div class="is-flex is-flex-direction-row">
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Speed</p>
+                    <p>speed</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Glide</p>
+                    <p>glide</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Turn</p>
+                    <p>turn</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Fade</p>
+                    <p>fade</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer has-background-primary">
+      <div class="content has-text-centered had-text-black">
+        <p>
+          <strong>Disc-Jockies</strong> by
+          <a href="https://github.com/CaseyR1221/Disc-Jockey">The Hyzers</a>.
+          The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Script tags -->
   </body>
 </html>
