@@ -14,19 +14,35 @@ router.get('/', async (req, res) => {
         // Serialize data
         if(discData) {
             const discs = discData.map((disc) => disc.get({ plain: true }));
-            console.log(discs);
 
-                    // Pass serialized data and session flag into template
-            res.render('Disc', {
-            discs,
+            // Pass serialized data and session flag into template
+            res.render('discs', {
+                discs,
             });
         } else {
-            res.render('Disc');
+            res.render('discs');
         }
         
     } catch (err) {
         res.status(500).json(err);
     }
 });
+
+router.get('/:id', async (req, res) => {
+    try {
+      const discData = await Disc.findByPk(req.params.id, {
+        include: [ Reviews ],
+      });
+  
+      const disc = discData.get({ plain: true });
+      console.log(disc);
+      res.render('singleDisc', {
+        disc,
+        logged_in: req.session.logged_in
+      });
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  });
 
 module.exports = router;

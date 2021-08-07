@@ -14,11 +14,19 @@ router.get('/', async (req, res) => {
             const allReviews = reviewData.map((review) => review.get({ plain: true }));
             console.log(allReviews);
 
-                    // Pass serialized data and session flag into template
-            res.render('homepage', {
-                allReviews,
-                logged_in: req.session.logged_in
-            });
+            // get 3 random discs for showcase
+            const discs = [];
+            for(let i = 0; i < 3; i++) {
+                discData = await Disc.findByPk(Math.floor(Math.random() * 100));
+                discs.push(discData.get({ plain: true }));
+            }
+
+        // Pass serialized data and session flag into template
+        res.render('homepage', {
+            allReviews,
+            discs,
+            logged_in: req.session.logged_in
+        });
         } else {
             res.render('homepage');
         }
@@ -26,10 +34,6 @@ router.get('/', async (req, res) => {
     } catch (err) {
         res.status(500).json(err);
     }
-});
-
-router.get('/discs', (req,res) => {
-    res.render('discs');
 });
 
 router.get('/login', (req,res) => {

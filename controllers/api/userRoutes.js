@@ -3,7 +3,7 @@ const { Reviews, User } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 
-router.post('/',withAuth, async (req, res) => {
+router.post('/', async (req, res) => {
   try {
     const userData = await User.create({
       name: req.body.name,
@@ -77,28 +77,6 @@ router.get('/profile', withAuth, async (req, res) => {
     res.render('userprofile', {
       ...user,
       logged_in: true
-    });
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
-
-router.get('/disc/:id', async (req, res) => {
-  try {
-    const projectData = await Project.findByPk(req.params.id, {
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
-    });
-
-    const project = projectData.get({ plain: true });
-
-    res.render('Disc', {
-      ...project,
-      logged_in: req.session.logged_in
     });
   } catch (err) {
     res.status(500).json(err);

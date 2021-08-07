@@ -19,34 +19,34 @@
         
         {{#each discs as |disc|}}
             <!-- This is the individual tile -->
-            <a href="/disc/{{id}}" class="tile is-parent is-3">
-            <article class="tile is-child box">
+            <a href="/discs/{{id}}" class="tile is-parent is-3">
+            <article class="tile is-child box is-flex is-justify-content-center">
                 <!-- Put any content you want -->
                 <div class="tile-content">
-                <div class="media">
-                    <div class="media-content">
+                <div class="media is-flex is-align-items-center">
+                  <figure class="media-left">
+                    <img class="image is-128x128" src="./assets/images/{{image}}" alt="picture of disc"/>
+                  </figure>
+                  <div class="media-content">
                     <h3 class="title is-4">{{discName}}</h3>
                     <p class="subtitle is-6">{{brandName}}</p>
-                    </div>
+                  </div>
                 </div>
                 <div class="content">
-                    <p>Desciption:</p>
-                    <p>{{description}}</p>
-                    <p>Specs:</p>
                     <div class="is-flex is-flex-direction-row">
-                        <div class="is-flex is-flex-direction-column p-1">
+                        <div class="is-flex is-flex-direction-column p-2">
                             <p>Speed</p>
                             <p>{{speed}}</p>
                         </div>
-                        <div class="is-flex is-flex-direction-column p-1">
+                        <div class="is-flex is-flex-direction-column p-2">
                             <p>Glide</p>
                             <p>{{glide}}</p>
                         </div>
-                        <div class="is-flex is-flex-direction-column p-1">
+                        <div class="is-flex is-flex-direction-column p-2">
                             <p>Turn</p>
                             <p>{{turn}}</p>
                         </div>
-                        <div class="is-flex is-flex-direction-column p-1">
+                        <div class="is-flex is-flex-direction-column p-2">
                             <p>Fade</p>
                             <p>{{fade}}</p>
                         </div>
