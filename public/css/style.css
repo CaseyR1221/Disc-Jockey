@@ -46,6 +46,43 @@ footer {
     margin-right: 0px;
 }
 
+
+.card {
+    background-color: white;
+    transition: all 300ms ease;
+}
+
+.card:hover {
+    background-color: #f9f9f9;
+}
+
+#map {
+    height: 80%;
+    width: 120%;
+}
+  
+#pac-input {
+    width: 45%;
+}
+  
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+  
+#infowindow-content .title {
+    font-weight: bold;
+}
+  
+#infowindow-content {
+    display: none;
+}
+  
+#map #infowindow-content {
+    display: inline;
+
 #single-disc-name {
     margin-bottom: 5rem;
+
 }
