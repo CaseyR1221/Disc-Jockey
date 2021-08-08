@@ -1107,7 +1107,7 @@
     {
         "brandName": "Prodigy",
         "discName": "F5",
-        "image": "",
+        "image": "F5.jpeg",
         "range": "Fairway",
         "speed": 7,
         "glide": 5,
@@ -1120,7 +1120,7 @@
     {
         "brandName": "Prodigy",
         "discName": "F2",
-        "image": "",
+        "image": "F2.jpeg",
         "range": "Fairway",
         "speed": 7,
         "glide": 5,
@@ -1133,7 +1133,7 @@
     {
         "brandName": "Prodigy",
         "discName": "H4 V2",
-        "image": "",
+        "image": "H4-V2.jpeg",
         "range": "Fairway",
         "speed": 10,
         "glide": 5,
@@ -1146,7 +1146,7 @@
     {
         "brandName": "Prodigy",
         "discName": "F7",
-        "image": "",
+        "image": "F7.jpeg",
         "range": "Fairway",
         "speed": 7,
         "glide": 5,
@@ -1159,7 +1159,7 @@
     {
         "brandName": "Prodigy",
         "discName": "FX-2",
-        "image": "",
+        "image": "FX-2.jpeg",
         "range": "Fairway",
         "speed": 9,
         "glide": 4,
@@ -1172,7 +1172,7 @@
     {
         "brandName": "Prodigy",
         "discName": "M1",
-        "image": "",
+        "image": "M1.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -1185,7 +1185,7 @@
     {
         "brandName": "Prodigy",
         "discName": "M2",
-        "image": "",
+        "image": "M2.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 4,
@@ -1198,7 +1198,7 @@
     {
         "brandName": "Prodigy",
         "discName": "M3",
-        "image": "",
+        "image": "M3.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -1211,7 +1211,7 @@
     {
         "brandName": "Prodigy",
         "discName": "M4",
-        "image": "",
+        "image": "M4.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -1224,7 +1224,7 @@
     {
         "brandName": "Prodigy",
         "discName": "M5",
-        "image": "",
+        "image": "M5.jpeg",
         "range": "Mid-Range",
         "speed": 5,
         "glide": 5,
@@ -1237,7 +1237,7 @@
     {
         "brandName": "Prodigy",
         "discName": "A1",
-        "image": "",
+        "image": "A1.jpeg",
         "range": "Putter",
         "speed": 3,
         "glide": 3,
@@ -1250,7 +1250,7 @@
     {
         "brandName": "Prodigy",
         "discName": "A2",
-        "image": "",
+        "image": "A2.jpeg",
         "range": "Putter",
         "speed": 4,
         "glide": 4,
@@ -1263,7 +1263,7 @@
     {
         "brandName": "Prodigy",
         "discName": "A3",
-        "image": "",
+        "image": "A3.jpeg",
         "range": "Putter",
         "speed": 4,
         "glide": 4,
@@ -1276,7 +1276,7 @@
     {
         "brandName": "Prodigy",
         "discName": "A4",
-        "image": "",
+        "image": "A4.jpeg",
         "range": "Putter",
         "speed": 4,
         "glide": 4,
@@ -1289,7 +1289,7 @@
     {
         "brandName": "Prodigy",
         "discName": "PA-3",
-        "image": "",
+        "image": "PA-3.jpeg",
         "range": "Putter",
         "speed": 3,
         "glide": 4,
