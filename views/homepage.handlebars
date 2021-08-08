@@ -12,87 +12,94 @@
       <!-- This is the box to get the aside and recent reviews next to each other -->
       <!-- This is the aside to hold Favorite discs and upcoming tournaments -->
       <!-- This is the Favorite discs box -->
-      <h3 class="is-size-2 has-text-centered has-text-white">Featured Discs</h3>
+      <h3 class="is-size-2 has-text-centered has-text-white mb-6">Featured Discs</h3>
       <div class="tile is-ancestor">
+        <div class="columns pb-6">
+
         {{#each discs as |disc|}}
-          <a href="/discs/{{id}}" class="tile is-parent">
-            <article class="tile is-child box">
-              <!-- Put any content you want -->
-              <figure class="image is-256x256">
-                <img
-                  src="./assets/images/{{image}}"
-                  alt="Pic of the disc"
-                />
-              </figure>
-              <div class="tile-content">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title is-4">{{discName}}</p>
-                    <p class="subtitle is-6">{{discBrand}}</p>
-                  </div>
-                </div>
-                <div class="content">
-                  <p>Desciption:</p>
-                  <p>{{description}}</p>
-                  <p>Specs:</p>
-                  <div class="is-flex is-flex-direction-row">
-                    <div class="is-flex is-flex-direction-column m-1">
-                      <p>Speed</p>
-                      <p>{{speed}}</p>
-                    </div>
-                    <div class="is-flex is-flex-direction-column m-1">
-                      <p>Glide</p>
-                      <p>{{glide}}</p>
-                    </div>
-                    <div class="is-flex is-flex-direction-column m-1">
-                      <p>Turn</p>
-                      <p>{{turn}}</p>
-                    </div>
-                    <div class="is-flex is-flex-direction-column m-1">
-                      <p>Fade</p>
-                      <p>{{fade}}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </a>
+			<div class="column">
+				<a href="/discs/{{id}}">
+					<div class="card">
+						<div class="card-image p-3">
+							<figure class="image">
+							<img src="./assets/images/{{image}}" style="max-height: 300px; width: 300px; margin: 0 auto;" alt="Placeholder image">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-left">
+									<figure class="image is-48x48">
+									<img src="./assets/images/{{image}}" alt="Disc Name">
+									</figure>
+								</div>
+								<div class="media-content">
+									<p class="title is-4">{{discName}}</p>
+									<p class="subtitle is-6">{{discBrand}}</p>
+								</div>
+							</div>
+
+							<div class="content">
+							{{description}}
+							</div>
+							<div class="content">
+								<div class="columns is-gapless is-multiline is-mobile">
+									<div class="column bd-notification is-primary">
+										Speed : {{speed}}
+									</div>
+									<div class="column bd-notification is-info has-text-centered">
+										Glide : {{glide}}
+									</div>
+									<div class="column bd-notification is-danger has-text-centered">
+										Turn: {{turn}}
+									</div>
+									<div class="column bd-notification is-success has-text-centered">
+										Fade: {{fade}}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
         {{/each}}
+      	</div>
       </div>
 
-      <div class="tile is-ancestor">
-        <div class="tile is-parent is-8 has-background-black">
-          <div class="tile is-child box has-background-link">
-            <p class="title">Reviews</p>
-            <div class="content">
-              {{#each allReviews as |review|}}
-                <div class="tile is-child box has-background-white">
-                  <h3 class="title">{{disc.brandName}} {{disc.discName}}</h3>
-                  <textarea class="textarea" readonly>{{comment}}</textarea>
-                  <h4 class="has-text-right">- posted by {{user.name}} on {{format_date date_created}}</h4>
-                </div>
-              {{/each}}
-            </div>
-          </div>
-        </div>
-        <div class="tile is-parent">
-          <div class="tile is-child box">
-            <div class="content">
-              <p class="title has-text-centered">Upcoming Tournament</p>
-              <p class="subtitle has-text-centered">2021 Orlando PDGA Amateur-Open</p>
-              <figure class="image is-4by3">
-                <img
-                  src="./assets/images/2021pdga-amateur.jpg"
-                  alt="2021 Orlando PDGA Amateur-Open"
-                />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
+		<div class="tile">
+		<div class="columns">
+			<div class="tile is-parent is-8 column">
+				<div class="tile is-child box">
+					<p class="title">Reviews</p>
+					<div class="content">
+					{{#each allReviews as |review|}}
+						<div class="tile is-child box has-background-white">
+						<h3 class="title">{{disc.brandName}} {{disc.discName}}</h3>
+						<textarea class="textarea" readonly>{{comment}}</textarea>
+						<h4 class="has-text-right">- posted by {{user.name}} on {{format_date date_created}}</h4>
+						</div>
+					{{/each}}
+					</div>
+				</div>
+			</div>
+			<div class="tile is-parent is-4 column">
+				<div class="tile is-child box">
+					<div class="content">
+					<p class="title has-text-centered">Upcoming Tournament</p>
+					<p class="subtitle has-text-centered">2021 Orlando PDGA Amateur-Open</p>
+					<figure class="image">
+						<img
+						src="./assets/images/2021pdga-amateur.jpg"
+						alt="2021 Orlando PDGA Amateur-Open"
+						/>
+					</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
     </main>
 
-      <footer class="footer has-background-primary">
+      <footer class="footer has-background-light">
         <div class="content has-text-centered had-text-black">
           <p>
             <strong>Disc-Jockies</strong> by
