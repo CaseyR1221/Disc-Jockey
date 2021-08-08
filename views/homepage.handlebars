@@ -14,15 +14,13 @@
       <!-- This is the Favorite discs box -->
       <h3 class="is-size-2 has-text-centered has-text-white mb-6">Featured Discs</h3>
       <div class="tile is-ancestor">
-        <div class="columns pb-6">
-
         {{#each discs as |disc|}}
-			<div class="column">
-				<a href="/discs/{{id}}">
+			<div class="tile is-parent">
+				<a class="tile is-parent box" href="/discs/{{id}}">
 					<div class="card">
 						<div class="card-image">
 							<figure class="image">
-							<img src="./assets/images/{{image}}" style="max-height: 300px; width: 300px; margin: 0 auto;" alt="Placeholder image">
+							<img class="" src="./assets/images/{{image}}" style="height: 300px; width: 300px; margin: 0 auto;" alt="Placeholder image">
 							</figure>
 						</div>
 						<div class="card-content">
@@ -62,19 +60,20 @@
 				</a>
 			</div>
         {{/each}}
-      	</div>
       </div>
 
 		<div class="tile is-ancestor">
 			<div class="tile is-parent is-8 column">
 				<div class="tile is-child box">
-					<p class="title">Reviews</p>
+					<p class="title">Recent Reviews</p>
 					<div class="content">
-					{{#each allReviews as |review|}}
-						<div class="tile is-child box has-background-white">
-						<h3 class="title">{{disc.brandName}} {{disc.discName}}</h3>
-						<textarea class="textarea" readonly>{{comment}}</textarea>
-						<h4 class="has-text-right">- posted by {{user.name}} on {{format_date date_created}}</h4>
+					{{#each reviews as |review|}}
+						<div class="tile is-parent">
+							<div class="tile is-child box has-background-white">
+								<h3 class="title">{{disc.brandName}} {{disc.discName}}</h3>
+								<textarea class="textarea" readonly>{{comment}}</textarea>
+								<h4 class="has-text-right">- posted by {{user.name}} on {{format_date date_created}}</h4>
+							</div>
 						</div>
 					{{/each}}
 					</div>
@@ -96,16 +95,5 @@
 			</div>
 		</div>
     </main>
-
-      <footer class="footer has-background-light">
-        <div class="content has-text-centered had-text-black">
-          <p>
-            <strong>Disc-Jockies</strong> by
-            <a href="https://github.com/CaseyR1221/Disc-Jockey">The Hyzers</a>.
-            The source code is licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
-          </p>
-        </div>
-      </footer>
 
       <script src="/js/review.js"></script>

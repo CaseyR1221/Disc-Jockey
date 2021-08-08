@@ -29,6 +29,15 @@ footer {
     height: 100vh;
 }
 
+.card {
+    background-color: white;
+    transition: all 300ms ease;
+}
+
+.card:hover {
+    background-color: #f9f9f9;
+}
+
 #left-tile {
     margin-left: 10px;
 }
@@ -36,6 +45,7 @@ footer {
 #right-tile {
     margin-right: 0px;
 }
+
 
 .card {
     background-color: white;
@@ -71,4 +81,8 @@ footer {
   
 #map #infowindow-content {
     display: inline;
+
+#single-disc-name {
+    margin-bottom: 5rem;
+
 }

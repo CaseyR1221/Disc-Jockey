@@ -14,7 +14,7 @@
     },
     {
         "brandName": "Innova",
-        "discName": "Destoyer",
+        "discName": "Destroyer",
         "image": "Star_Destroyer_bot.jpeg",
         "range": "Distance driver",
         "speed": 12,
@@ -67,7 +67,7 @@
     {
         "brandName": "Innova",
         "discName": "Teebird3",
-        "image": "teebird3-2.jpeg",
+        "image": "Teebird3-3.jpeg",
         "range": "Fairway",
         "speed": 8,
         "glide": 4,
