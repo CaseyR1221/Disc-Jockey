@@ -86,3 +86,8 @@ footer {
     margin-bottom: 5rem;
 
 }
+  
+#map{
+    height: 80%;
+    width: 80%;
+}

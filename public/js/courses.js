@@ -1,4 +1,4 @@
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWCeNY_dm5Zigp44gdpZtYIftFPKrveTo&callback=initAutocomplete&libraries=places&v=weekly&channel=2"
+
 
 function initAutocomplete() {
     const map = new google.maps.Map(document.getElementById("map"), {
