@@ -14,6 +14,11 @@ router.get('/', async (req, res) => {
             const allReviews = reviewData.map((review) => review.get({ plain: true }));
             console.log(allReviews);
 
+            let reviews = [];
+            for(let i = 0; i < 3; i++) {
+                reviews.push(allReviews.pop());
+            }
+
             // get 3 random discs for showcase
             const discs = [];
             for(let i = 0; i < 3; i++) {
@@ -31,7 +36,7 @@ router.get('/', async (req, res) => {
 
         // Pass serialized data and session flag into template
         res.render('homepage', {
-            allReviews,
+            reviews,
             discs,
             logged_in: req.session.logged_in
         });
