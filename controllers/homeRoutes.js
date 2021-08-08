@@ -18,7 +18,15 @@ router.get('/', async (req, res) => {
             const discs = [];
             for(let i = 0; i < 3; i++) {
                 discData = await Disc.findByPk(Math.floor(Math.random() * 100));
-                discs.push(discData.get({ plain: true }));
+
+                if(!discs.includes(discData)) {
+                    discs.push(discData.get({ plain: true }));
+                }
+                else {
+                    discData = await Disc.findByPk(Math.floor(Math.random() * 100));
+                    
+                    discs.push(discData.get({ plain: true }));
+                }
             }
 
         // Pass serialized data and session flag into template
