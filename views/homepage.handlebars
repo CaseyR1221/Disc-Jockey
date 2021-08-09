@@ -68,13 +68,13 @@
 					<p class="title">Recent Reviews</p>
 					<div class="content">
 					{{#each reviews as |review|}}
-						<div class="tile is-parent">
+						<a href="/discs/{{disc.id}}" class="tile is-parent">
 							<div class="tile is-child box has-background-white">
 								<h3 class="title">{{disc.brandName}} {{disc.discName}}</h3>
 								<textarea class="textarea" readonly>{{comment}}</textarea>
 								<h4 class="has-text-right">- posted by {{user.name}} on {{format_date date_created}}</h4>
 							</div>
-						</div>
+						</a>
 					{{/each}}
 					</div>
 				</div>

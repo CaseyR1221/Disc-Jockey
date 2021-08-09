@@ -59,6 +59,36 @@
         </div>
       </div>
 
+    {{#if logged_in}}
+    <div class="tile is-ancestor">
+			<div class="tile is-parent box is-flex is-flex-direction-column">
+				<div class="tile is-child box">
+					<p class="title">Disc Reviews</p>
+					<div class="content">
+					{{#each reviews as |review|}}
+						<div class="tile is-parent">
+							<div class="tile is-child box has-background-white">
+								<h3 class="title">{{brandName}} {{discName}}</h3>
+								<textarea class="textarea" readonly>{{comment}}</textarea>
+								<h4 class="has-text-right">- posted by {{user.name}} on {{format_date date_created}}</h4>
+							</div>
+						</div>
+					{{/each}}
+					</div>
+				</div>
+
+        <div class="tile is-parent box is-flex is-flex-direction-column">
+				  <p class="title">Add a Review</p>
+          <textarea class="textarea" id="review-body"></textarea>
+          <button class="button is-danger" type="click" id="postReview">Post Review</button>
+        </div>
+			</div>
+      
+		</div>
+    {{/if}}
+
       
 
   </main>
+
+  <script src="/js/review.js"></script>
