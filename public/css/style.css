@@ -56,6 +56,26 @@ footer {
     background-color: #f9f9f9;
 }
 
+.single-disc-name {
+    margin-bottom: 5rem;
+}
+
+.scroll {
+    margin:4px, 4px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+div.inner-scroll {
+    margin:4px, 4px;
+    width: 500px;
+    height: 110px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
 #pac-input {
     width: 45%;
 }
