@@ -32,7 +32,7 @@ Reviews.init(
         model: 'disc',
         key: 'id',
       },
-    },
+    }
   },
   {
     sequelize,

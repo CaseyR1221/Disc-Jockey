@@ -23,8 +23,8 @@ const newScorecardHandler = async (event) => {
   const deleteHandler = async (event) => {
     event.preventDefault();
 console.log(event.target);
-    const post_id = event.target.id;
-    const response = await fetch(`/api/users/scorecard/${post_id}`, {
+    const scorecard_id = event.target.id;
+    const response = await fetch(`/api/users/scorecard/${scorecard_id}`, {
         method: 'DELETE',
     });
 
@@ -42,5 +42,5 @@ console.log(event.target);
   .addEventListener('click', newScorecardHandler);
 
   document
-  .querySelector('.deleteScore')
+  .querySelector('#prevScores')
   .addEventListener('click', deleteHandler);
