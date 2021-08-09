@@ -28,7 +28,7 @@
             </a>
           </div>
         </div>
-        <div class="tile is-child box has-background-primary">
+        <div class="tile is-child box has-background-primary" id="prevScores">
           <p class="title">Previous Scorecards</p>
           {{#each scorecards as |scorecard|}}
             <div class="tile is-parent">
@@ -58,9 +58,9 @@
           {{#each reviews as |review|}}
             <div class="tile is-parent">
 							<div class="tile is-child box has-background-white">
-								<h3 class="title">{{discBrand}} {{discName}}</h3>
+								<h3 class="title">{{disc.brandName}} {{disc.discName}}</h3>
 								<textarea class="textarea" readonly>{{comment}}</textarea>
-								<h4 class="has-text-right">- posted by {{user.name}} on {{format_date date_created}}</h4>
+								<h4 class="has-text-right">- posted on {{format_date date_created}}</h4>
 							</div>
 						</div>
           {{/each}}
