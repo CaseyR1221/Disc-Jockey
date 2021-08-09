@@ -30,14 +30,21 @@ router.get('/', async (req, res) => {
 
 router.get('/:id', async (req, res) => {
     try {
-      const discData = await Disc.findByPk(req.params.id, {
-        include: [ Reviews ],
+      const discData = await Disc.findByPk(req.params.id);
+
+      const reviewData = await Reviews.findAll({
+        where: { disc_id: req.params.id },
+        include: User,
       });
   
       const disc = discData.get({ plain: true });
+      const reviews = reviewData.map((review) => review.get({ plain: true }));
+
       console.log(disc);
+
       res.render('singleDisc', {
         disc,
+        reviews,
         logged_in: req.session.logged_in
       });
     } catch (err) {

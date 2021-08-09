@@ -1,17 +1,17 @@
 const newReviewHandler = async (event) => {
     event.preventDefault();
 
-    const body = document.querySelector('#review-body').value.trim();
+    const comment = document.querySelector('#review-body').value.trim();
     // grabs the id at the end of the url by turning url into a string then an array and grabbing the last element
-    const post_id = window.location.href.toString().split("/").pop();
-
-    if (body && post_id) {
-      const response = await fetch('/api/review/', {
+    const disc_id = window.location.href.toString().split("/").pop();
+console.log("saved");
+    if (comment && disc_id) {
+      const response = await fetch('/api/reviews/', {
         method: 'POST',
-        body: JSON.stringify({ body, post_id }),
+        body: JSON.stringify({ comment, disc_id }),
         headers: { 'Content-Type': 'application/json' },
       });
-      
+console.log("posted");
       if (response.ok) {
         document.location.reload();
       } else {
@@ -21,5 +21,5 @@ const newReviewHandler = async (event) => {
   };
 
   document
-  .querySelector('.review-form')
-  .addEventListener('submit', newReviewHandler);
+  .querySelector('#postReview')
+  .addEventListener('click', newReviewHandler);
