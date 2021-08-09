@@ -56,11 +56,6 @@ footer {
     background-color: #f9f9f9;
 }
 
-#map {
-    height: 80%;
-    width: 120%;
-}
-  
 #pac-input {
     width: 45%;
 }
@@ -81,13 +76,13 @@ footer {
   
 #map #infowindow-content {
     display: inline;
+}
 
 #single-disc-name {
     margin-bottom: 5rem;
-
 }
   
-#map{
+#map {
     height: 80%;
-    width: 80%;
+    width: 100%;
 }
