@@ -4,7 +4,7 @@
 <div class="tile is-ancestor is-fullheight-100vh mx-2">
       <div class="tile is-5 is-vertical is-parent has-background-black">
         <div class="tile is-child box is-12 has-background-link">
-          <p class="title">New Scorecard</p>
+          <p class="title has-text-centered has-text-primary">New Scorecard</p>
           <div class="field">
             <p class="control has-icons-left has-icons-right">
               <input class="input" type="text" placeholder="Course Name" id="course-name">
@@ -28,12 +28,12 @@
             </a>
           </div>
         </div>
-        <div class="tile is-child box has-background-primary" id="prevScores">
-          <p class="title">Previous Scorecards</p>
+        <div class="tile is-child box has-background-link scroll">
+          <p class="title has-text-centered has-text-primary">Previous Scorecards</p>
           {{#each scorecards as |scorecard|}}
-            <div class="tile is-parent">
-							<div class="tile is-child box has-background-white">
-								<h3 class="title">{{course_name}}</h3>
+            <div class="tile is-parent box has-background-white inner-scroll">
+							<div class="tile is-child box has-background-link has-text-centered">
+								<h3 class="title has-text-primary">{{course_name}}</h3>
                 <div class="is-flex is-flex-direction-row">
                   <div class="is-flex is-flex-direction-column p-3">
                     <p>Course Par</p>
@@ -52,9 +52,9 @@
         </div>
       </div>
 
-      <div id="right-tile" class="tile is-parent is-7">
-        <div class="tile is-child box">
-          <p class="title">{{name}}'s Reviews</p>
+      <div id="right-tile" class="tile is-parent box is-7 has-background-black">
+        <div class="tile is-child box has-background-link">
+          <p class="title has-text-centered has-text-primary">{{name}}'s Reviews</p>
           {{#each reviews as |review|}}
             <div class="tile is-parent">
 							<div class="tile is-child box has-background-white">

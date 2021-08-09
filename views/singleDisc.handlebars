@@ -2,13 +2,13 @@
       <!-- This is the box to get the aside and recent reviews next to each other -->
       <!-- This is the aside to hold Favorite discs and upcoming tournaments -->
       <!-- This is the Favorite discs box -->
-      <h1 class="is-size-1 has-text-centered">{{disc.discName}}</h1>
+      <h1 class="is-size-1 has-text-centered single-disc-name">{{disc.discName}}</h1>
 
       <!-- This is the row tile -->
       <div class="tile is-ancestor is-flex is-flex-wrap-wrap">
         
         <!-- This is the individual tile -->
-        <div class="tile is-parent is-3">
+        <div class="tile is-parent is-4 has-text-centered">
           <article class="tile is-child box">
             <!-- Put any content you want -->
             <div class="tile-content">
@@ -17,13 +17,14 @@
                 <h3 class="title is-4">{{disc.brandName}}</h3>
               </div>
             </div>
+            <br>
             <div class="content">
-              <p>Desciption:</p>
+              <strong>Desciption:</strong>
               <p>{{disc.description}}</p>
-              <p>Best Conditions:</p>
+              <strong>Best Conditions:</strong>
               <p>{{disc.bestConditions}}</p>
-              <p>Specs:</p>
-              <div class="is-flex is-flex-direction-row">
+              <strong>Specs:</strong>
+              <div class="is-flex is-flex-direction-row is-justify-content-center">
                   <div class="is-flex is-flex-direction-column p-1">
                     <p>Speed</p>
                     <p>{{disc.speed}}</p>
@@ -46,12 +47,12 @@
           </article>
         </div>
         
-        <div class="tile is-parent is-3">
+        <div class="tile is-parent is-8">
           <figure class="tile is-child box">
             <!-- Put any content you want -->
             <div class="tile-content">
                 <div class="content">
-                  <img src="../public/assets/Images/{{image}}" style="max-height: 300px; width: 300px; margin: 0 auto;" alt="Placeholder image">
+                  <img src="/assets/Images/{{disc.image}}" style="max-height: 1100px; width: 1100px; margin: 0 auto;" alt="Placeholder image">
                 </div>
             </div>
           </figure>
@@ -61,14 +62,3 @@
       
 
   </main>
-
-    <footer class="footer has-background-primary">
-      <div class="content has-text-centered had-text-black">
-        <p>
-          <strong>Disc-Jockies</strong> by
-          <a href="https://github.com/CaseyR1221/Disc-Jockey">The Hyzers</a>.
-          The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
-        </p>
-      </div>
-    </footer>
