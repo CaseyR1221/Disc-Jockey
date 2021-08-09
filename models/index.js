@@ -1,16 +1,16 @@
 const Disc = require('./Disc');
 const Reviews = require('./Reviews');
-const Scorecard = require('./ScoreCard');
+const ScoreCard = require('./ScoreCard');
 const User = require('./User');
 
-User.hasMany(Scorecard, {
-    foreignKey: 'user_id',
-})
-
-Scorecard.belongsTo(User, {
+User.hasMany(ScoreCard, {
     foreignKey: 'user_id',
     onDelete: 'CASCADE'
-})
+});
+
+ScoreCard.belongsTo(User, {
+    foreignKey: 'user_id',
+});
 
 User.hasMany(Reviews, {
     foreignKey: 'user_id',
@@ -30,4 +30,4 @@ Reviews.belongsTo(Disc, {
     foreignKey: 'disc_id',
 });
 
-module.exports= { User, Disc, Reviews, Scorecard }; 
+module.exports= { User, Disc, Reviews, ScoreCard }; 
