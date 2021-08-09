@@ -1,58 +1,62 @@
 <!-- This html will need api to render with arrays for the current discs, current tournaments, and the current reviews -->
 
 <main>
-<div class="tile is-ancestor is-fullheight-100vh">
-      <div
-        id="left-tile"
-        class="tile is-4 is-vertical is-parent has-background-black"
-      >
-        <div class="tile is-child box has-background-link">
-          <p class="title">One</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas
-            non massa sem. Etiam finibus odio quis feugiat facilisis.
-          </p>
+<div class="tile is-ancestor is-fullheight-100vh mx-2">
+      <div class="tile is-5 is-vertical is-parent has-background-black">
+        <div class="tile is-child box is-12 has-background-link">
+          <p class="title">New Scorecard</p>
+          <div class="field">
+            <p class="control has-icons-left has-icons-right">
+              <input class="input" type="text" placeholder="Course Name" id="course-name">
+            </p>
+          </div>
+          <div class="field">
+            <p class="control has-icons-left">
+              <input class="input" type="text" placeholder="Par" id="course-par">
+            </p>
+          </div>
+          <div class="field">
+            <p class="control has-icons-left">
+              <input class="input" type="text" placeholder="Score" id="course-score">
+            </p>
+          </div>
+          <div class="field">
+            <a class="control">
+              <button class="button is-danger" style="display: block; width: 100%" type="click" id="saveScore">
+                Submit
+              </button>
+            </a>
+          </div>
         </div>
-        <div class="tile is-child box is-12 has-background-primary">
-          <p class="title">Two</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas
-            non massa sem. Etiam finibus odio quis feugiat facilisis.
-          </p>
+        <div class="tile is-child box has-background-primary">
+          <p class="title">Previous Scorecards</p>
+          {{#each scorecards as |scorecard|}}
+            <div class="tile is-parent">
+							<div class="tile is-child box has-background-white">
+								<h3 class="title">{{course_name}}</h3>
+								<textarea class="textarea" readonly>{{par}}</textarea>
+								<h4 class="has-text-right"> played on {{format_date date_created}}</h4>
+							</div>
+						</div>
+          {{/each}}
         </div>
       </div>
 
-      <div class="tile is-parent is-2"></div>
-
-      <div id="right-tile" class="tile is-parent is-5">
+      <div id="right-tile" class="tile is-parent is-7">
         <div class="tile is-child box">
-          <p class="title">Three</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum
-            volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi
-            maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis
-            semper odio felis ut quam.
-          </p>
-          <p>
-            Suspendisse varius ligula in molestie lacinia. Maecenas varius eget
-            ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus,
-            augue diam porttitor lorem, et sollicitudin felis neque sit amet
-            erat. Maecenas imperdiet felis nisi, fringilla luctus felis
-            hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim
-            turpis. Sed eget varius ligula, at volutpat tortor.
-          </p>
-          <p>
-            Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus
-            erat, vitae congue lectus dolor consequat libero. Donec leo ligula,
-            maximus et pellentesque sed, gravida a metus. Cras ullamcorper a
-            nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero.
-            Quisque non semper leo.
-          </p>
+          <p class="title">{{name}}'s Reviews</p>
+          {{#each reviews as |review|}}
+            <div class="tile is-parent">
+							<div class="tile is-child box has-background-white">
+								<h3 class="title">{{discBrand}} {{discName}}</h3>
+								<textarea class="textarea" readonly>{{comment}}</textarea>
+								<h4 class="has-text-right">- posted by {{user.name}} on {{format_date date_created}}</h4>
+							</div>
+						</div>
+          {{/each}}
         </div>
       </div>
+
     </div>
 
     <footer class="footer has-background-primary">

@@ -1,77 +1,74 @@
-<main class="section has-text-white m-5">
-  <!-- This is the box to get the aside and recent reviews next to each other -->
-  <!-- This is the aside to hold Favorite discs and upcoming tournaments -->
-  <!-- This is the Favorite discs box -->
-  <h1 id="single-disc-name" class="is-size-1 has-text-centered">{{disc.discName}}</h1>
+    <main class="section has-text-white m-5">
+      <!-- This is the box to get the aside and recent reviews next to each other -->
+      <!-- This is the aside to hold Favorite discs and upcoming tournaments -->
+      <!-- This is the Favorite discs box -->
+      <h1 class="is-size-1 has-text-centered">{{disc.discName}}</h1>
 
-  <!-- This is the row tile -->
-  <div class="tile is-ancestor">
-
-    <!-- This is the individual tile -->
-    <a class="tile is-parent is-3">
-      <article class="tile is-child box">
-        <!-- Put any content you want -->
-        <div class="tile-content">
-          <div class="media">
-            <div class="media-content has-text-centered">
-              <h3 class="title is-2">{{disc.brandName}}</h3>
-            </div>
-          </div>
-          <br>
-          <div class="content has-text-centered">
-            <strong>Desciption:</strong>
-            <p>{{disc.description}}</p>
-            <strong>Average Cost:</strong>
-            <p>{{disc.averageCost}}</p>
-            <strong>Best Conditions:</strong>
-            <p>{{disc.bestConditions}}</p>
-            <strong>Specs:</strong>
-
-            <div class="is-flex is-flex-direction-row is-justify-content-center">
-              <div
-                class="is-flex is-flex-direction-column has-text-centered p-1"
-              >
-                <strong>Speed</strong>
-                <p>{{disc.speed}}</p>
-              </div>
-              <div
-                class="is-flex is-flex-direction-column has-text-centered p-1"
-              >
-                <strong>Glide</strong>
-                <p>{{disc.glide}}</p>
-              </div>
-              <div
-                class="is-flex is-flex-direction-column has-text-centered p-1"
-              >
-                <strong>Turn</strong>
-                <p>{{disc.turn}}</p>
-              </div>
-              <div
-                class="is-flex is-flex-direction-column has-text-centered p-1"
-              >
-                <strong>Fade</strong>
-                <p>{{disc.fade}}</p>
+      <!-- This is the row tile -->
+      <div class="tile is-ancestor is-flex is-flex-wrap-wrap">
+        
+        <!-- This is the individual tile -->
+        <div class="tile is-parent is-3">
+          <article class="tile is-child box">
+            <!-- Put any content you want -->
+            <div class="tile-content">
+            <div class="media">
+              <div class="media-content">
+                <h3 class="title is-4">{{disc.brandName}}</h3>
               </div>
             </div>
-          </div>
+            <div class="content">
+              <p>Desciption:</p>
+              <p>{{disc.description}}</p>
+              <p>Best Conditions:</p>
+              <p>{{disc.bestConditions}}</p>
+              <p>Specs:</p>
+              <div class="is-flex is-flex-direction-row">
+                  <div class="is-flex is-flex-direction-column p-1">
+                    <p>Speed</p>
+                    <p>{{disc.speed}}</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                      <p>Glide</p>
+                      <p>{{disc.glide}}</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                      <p>Turn</p>
+                      <p>{{disc.turn}}</p>
+                  </div>
+                  <div class="is-flex is-flex-direction-column p-1">
+                      <p>Fade</p>
+                      <p>{{disc.fade}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
-      </article>
-    </a>
-
-    <div class="tile is-parent is-9">
-      <figure class="tile is-child box">
-        <!-- Put any content you want -->
-        <div class="tile-content">
-          <div class="content">
-            <img
-              src="../assets/images/{{disc.image}}"
-              style="max-height: 1100px; width: 1100px; margin: 0 auto;"
-              alt="Placeholder image"
-            />
-          </div>
+        
+        <div class="tile is-parent is-3">
+          <figure class="tile is-child box">
+            <!-- Put any content you want -->
+            <div class="tile-content">
+                <div class="content">
+                  <img src="../public/assets/Images/{{image}}" style="max-height: 300px; width: 300px; margin: 0 auto;" alt="Placeholder image">
+                </div>
+            </div>
+          </figure>
         </div>
-      </figure>
-    </div>
-  </div>
+      </div>
 
-</main>
+      
+
+  </main>
+
+    <footer class="footer has-background-primary">
+      <div class="content has-text-centered had-text-black">
+        <p>
+          <strong>Disc-Jockies</strong> by
+          <a href="https://github.com/CaseyR1221/Disc-Jockey">The Hyzers</a>.
+          The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+        </p>
+      </div>
+    </footer>

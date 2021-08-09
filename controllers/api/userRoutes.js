@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Reviews, User } = require('../../models');
+const { Reviews, User, Scorecard } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 
@@ -69,7 +69,7 @@ router.get('/profile', withAuth, async (req, res) => {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
       attributes: { exclude: ['password'] },
-      include: [{ model: Reviews }],
+      include: [{ model: Reviews, Scorecard }],
     });
 
     const user = userData.get({ plain: true });
