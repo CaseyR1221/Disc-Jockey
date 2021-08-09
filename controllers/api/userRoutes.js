@@ -85,7 +85,7 @@ console.log(reviews);
 
     res.render('userprofile', {
       layout: 'profile',
-      ...user,
+      user,
       reviews,
       logged_in: true
     });

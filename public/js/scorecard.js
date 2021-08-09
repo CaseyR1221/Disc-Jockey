@@ -24,13 +24,14 @@ const newScorecardHandler = async (event) => {
     event.preventDefault();
 console.log(event.target);
     const scorecard_id = event.target.id;
+console.log(scorecard_id);
     const response = await fetch(`/api/users/scorecard/${scorecard_id}`, {
         method: 'DELETE',
     });
 
       if(response.ok) {
           alert("scorecard was deleted!");
-          document.location.replace("/api/users/profile");
+          document.location.reload();
       } else {
           alert("Could not delete scorecard!");
       }
@@ -41,6 +42,7 @@ console.log(event.target);
   .querySelector('#saveScore')
   .addEventListener('click', newScorecardHandler);
 
-  document
-  .querySelector('#prevScores')
-  .addEventListener('click', deleteHandler);
+  let deleteButtons = document.querySelectorAll('.deleteScore')
+  for(let button of deleteButtons) {
+    button.addEventListener('click', deleteHandler);
+  }
