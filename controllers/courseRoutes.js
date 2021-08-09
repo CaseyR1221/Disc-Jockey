@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const { Reviews, User, ScoreCard } = require('../models');
 
 
 router.get('/', (req,res) => {
@@ -6,3 +7,4 @@ router.get('/', (req,res) => {
 });
 
 module.exports = router;
+

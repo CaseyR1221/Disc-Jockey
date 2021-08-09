@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Reviews, User } = require('../../models');
+const { Reviews, User, ScoreCard } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 
@@ -69,16 +69,52 @@ router.get('/profile', withAuth, async (req, res) => {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
       attributes: { exclude: ['password'] },
-      include: [{ model: Reviews }],
+      include: [Reviews, ScoreCard],
     });
 
     const user = userData.get({ plain: true });
-
+console.log(user);
     res.render('userprofile', {
       layout: 'profile',
       ...user,
       logged_in: true
     });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+// creates a new score card and saves it with a user id
+router.post('/scorecard', async (req,res) => {
+  try {
+      const scorecardData = ScoreCard.create({
+          course_name: req.body.course,
+          my_score: req.body.score,
+          par: req.body.par,
+          user_id: req.session.user_id,
+      });
+
+      res.status(200).json(scorecardData);
+
+  } catch(err) {
+      res.status(400).json(err);
+  }
+});
+
+router.delete('/scorecard/:id', async (req,res) => {
+  try {
+    const scorecardData = await ScoreCard.destroy({
+      where: {
+        id: req.params.id,
+      },
+    });
+
+    if (!scorecardData) {
+      res.status(404).json({ message: 'No scorecard found with this id!' });
+      return;
+    }
+
+    res.status(200).json(scorecardData);
   } catch (err) {
     res.status(500).json(err);
   }

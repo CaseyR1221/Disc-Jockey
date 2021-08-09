@@ -1,16 +1,17 @@
 const newScorecardHandler = async (event) => {
     event.preventDefault();
 
-    const score = document.querySelector('#user-score').value.trim();
+    const course = document.querySelector('#course-name').value.trim();
+    const score = document.querySelector('#course-score').value.trim();
     const par = document.querySelector('#course-par').value.trim();
 
-    if (score && par) {
-      const response = await fetch('/api/user/scorecard', {
+    if (course && score && par) {
+      const response = await fetch('/api/users/scorecard', {
         method: 'POST',
-        body: JSON.stringify({ score, par }),
+        body: JSON.stringify({ course, score, par }),
         headers: { 'Content-Type': 'application/json' },
       });
-      
+
       if (response.ok) {
         document.location.reload();
       } else {
@@ -19,6 +20,27 @@ const newScorecardHandler = async (event) => {
     }
   };
 
+  const deleteHandler = async (event) => {
+    event.preventDefault();
+console.log(event.target);
+    const post_id = event.target.id;
+    const response = await fetch(`/api/users/scorecard/${post_id}`, {
+        method: 'DELETE',
+    });
+
+      if(response.ok) {
+          alert("scorecard was deleted!");
+          document.location.replace("/api/users/profile");
+      } else {
+          alert("Could not delete scorecard!");
+      }
+  };
+
+
   document
-  .querySelector('.score-form')
-  .addEventListener('submit', newScorecardHandler);
+  .querySelector('#saveScore')
+  .addEventListener('click', newScorecardHandler);
+
+  document
+  .querySelector('.deleteScore')
+  .addEventListener('click', deleteHandler);
